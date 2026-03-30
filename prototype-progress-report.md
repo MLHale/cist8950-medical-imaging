@@ -60,14 +60,7 @@ Another hindrance, probably just that prior to picking this back up, it had been
 | Anatomical variability exceeds TPS correction (64) | 8 | 8 | Inter-subject liver shape differences may be too large for TPS to produce anatomically valid mappings, particularly without dense, reliable landmarks. Current results show instability. Mitigation: add more anatomically grounded landmarks (segment tips, vessel entry points). |
 | Vasculature not segmentable via TotalSegmentator (40) | 10 | 4 | The hepatic/portal vein coverage in TotalSegmentator is limited and may not provide sufficient vascular structure for distance computation, the project's core deliverable. I’ve only looked at the vasculature on one subject, but it's particularly spotty, and it may be difficult to identify the 3 hepatic branches. Additionally, you may need to accept that distance computation may be approximate or deferred. |
 | Landmark correspondence remains anatomically ambiguous (36) | 9 | 4 | Couinaud centroid landmarks may not be sufficiently distinctive or stable across subjects to anchor non-rigid registration. Mitigation: incorporate additional landmarks (e.g., vessel branching points) and refine the extraction logic. |
-| Pipeline generalizability beyond liver unvalidated (28) | 7 | 4 |
-All development and testing (so far) have been mostly liver-specific, currently leveraging 
-Couinaud segments as anatomical anchors. Other organs lack equivalent 
-subdivision frameworks, making landmark extraction and correspondence 
-much harder. If generalization is expected, this is unaddressed. 
-Mitigation: accept liver-only scope explicitly in documentation, 
-or prototype one additional organ to test transferability. Additionally, I think this methodology is likely to be generalizable to the entire body system and may be used only for local alignment comprehension. |
-
+| Pipeline generalizability beyond liver unvalidated (28) | 7 | 4 |All development and testing (so far) have been mostly liver-specific, currently leveraging Couinaud segments as anatomical anchors. Other organs lack equivalent subdivision frameworks, making landmark extraction and correspondence much harder. If generalization is expected, this is unaddressed. Mitigation: accept liver-only scope explicitly in documentation, or prototype one additional organ to test transferability. Additionally, I think this methodology is likely to be generalizable to the entire body system and may be used only for local alignment comprehension. |
 | Solo project/knowledge gaps cause delays (24) | 6 | 4 | Competing academic obligations further compress available time. Accept: scope may need narrowing; focus on pipeline correctness over breadth. |
 
 
