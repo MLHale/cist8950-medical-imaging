@@ -17,7 +17,10 @@ It gave me something and I had to make some alterations to it.
 
 
 Project Realization
-Haven't completetd this one yet but I have started on it nothing to disclose so far
+I used claude to help me make the risk list I also used grammarly for grammar throughout the document 
+Claude promt: (Given my entrire Project reliztation written out and the risk list format) Can you help me to identify what are good thing to put into this risk list based on everything that I've already stated in the project realization. It gave me something and I edited what it gave me. 
+
+
 
 
 
