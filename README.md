@@ -13,7 +13,7 @@ pip install nibabel numpy totalsegmentator matplotlib scipy
 ## Data Setup
 
 1. Go to [https://zenodo.org/records/10047292](https://zenodo.org/records/10047292) and download `Totalsegmentator_dataset_v201.zip`
-2. Extract it into your project directory
+2. Extract it into your project directory make sure theres another folder in the "Code folder" named Data dont know why that didn't get added as well. 
 3. Run `Testing_total_segmentator.py` — this pulls the specific segmentation files needed and sets up the working directory automatically
 
 ## Running the Pipeline
