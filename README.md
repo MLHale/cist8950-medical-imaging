@@ -35,7 +35,8 @@ Output is saved as `transformed_liver_seg.nii.gz`.
 ![Conceptual model diagram](images/conceptual_Model.png)
 
 
-Link to Visio
+Link to Visio Embedding this as a link isnt working for some reason 
+
 https://uofnebraska-my.sharepoint.com/personal/75885073_nebraska_edu/_layouts/15/Doc.aspx?sourcedoc={cf3f133e-cb40-4e76-9683-9e982aa7d600}&action=embedview
 
 Planning on also creating a more in-depth model of the pipeline itself. 
