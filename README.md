@@ -31,3 +31,6 @@ python testing_output_mainfile.py
 Output is saved as `transformed_liver_seg.nii.gz`.
 
 I had Claude help me to format this in .md 
+
+
+I will probably be updating this before next monday 
