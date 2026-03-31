@@ -22,7 +22,7 @@ pip install nibabel numpy totalsegmentator matplotlib scipy
 python Testing_total_segmentator.py
 
 # Step 2 - Run the registration
-python Total_Segmentator_3D_Registration.py
+python "Total Segmentator 3D Registration.py"
 
 # Step 3 - View output visualizations
 python testing_output_mainfile.py
