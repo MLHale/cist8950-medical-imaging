@@ -1,8 +1,12 @@
 ## AI tools that I may have used in one way or another:
 Gemini - For research and finding relevant or similar articles to a topic I'm researching 
+
 ChatGPT - Brainstorming, Rewriting things sometimes 
+
 Github CoPilot - Coding/Fixing errors etc. 
+
 Claude - I just started to use this one recently, but generally think it might be better. Can do what ChatGPT and CoPilot do
+
 Grammarly - Technically AI, but yes, I have this on my computer, so it does give me better writing formating however
 
 
