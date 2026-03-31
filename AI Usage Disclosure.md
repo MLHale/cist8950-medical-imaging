@@ -44,8 +44,7 @@ Presentation
 I have some Visualizations/scripts that were 100% AI-generated code from when I was testing a lot of different things. Those were mostly for my own verification of what the what is happening, I might use them for the presentation. I did end up using them for the presentation and I also had Claude create a little pipeline diagram for me which is included in the presentation. I also probably used grammarly here. 
 
 AI usage for code:
-I tried adding in my prompts, and exactly how I got the code that I did, the testing files were really me originally messing around with a few different things with Claude, and then ended up actually really using the things. Anyways, just trying to be as transparent as possible about everything and also showcase where I used these tools in accordance with what it says on the syllabus, because it does indicate that it's okay to do so as long as we report it or whatever. 
-
+I tried adding in my prompts, and exactly how I got the code that I did, the testing files were really me originally messing around with a few different things with Claude, and then ended up actually really using the things. Anyways, just trying to be as transparent as possible about everything and also showcase where I used these tools in accordance with what it says on the syllabus, because it does indicate that it's okay to do so as long as we report it or whatever. So I added the prompts/explanations of how I got what I did and what everything does. By Monday, I hope to restructure everything around a better pipeline, so I would like to have that done soon. Let me know if you need anything else from me. 
 
 
 
