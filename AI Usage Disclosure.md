@@ -26,8 +26,7 @@ Claude promt: (Given my entrire Project reliztation written out and the risk lis
 
 
 Research Paper Outline
-This one may not require claude? moslty going to be just grammarly however I might just be word vomiting and then having it reformat for me but probably not
-This is something that I think I am pretty knowledgeable on at this point. 
+I used Grammarly here to improve my writing. I also tried to give Claude my abstract with the prompt How does this sound? Can I make this sound any clearer? It didn't really help at all. However, the first 2 sentences are a rewrite by Claude that improved what I wrote. 
 
 
 
@@ -44,6 +43,8 @@ I don't think that I used any AI tools for this; however, CoPilot is connected t
 
 
 Presentation 
-I have some Visualizations/scripts that were 100% AI-generated code from when I was testing a lot of different things. Those were
-Mostly for my own verification of what the wtf is happening, I might use them for the presentation. Will update this later, probably
-with how I may have used it, certainly Grammarly will be used. 
+I have some Visualizations/scripts that were 100% AI-generated code from when I was testing a lot of different things. Those were mostly for my own verification of what the what is happening, I might use them for the presentation. I did end up using them for the presentation and I also had Claude create a little pipeline diagram for me which is included in the presentation. I also probably used grammarly here. 
+
+
+
+
