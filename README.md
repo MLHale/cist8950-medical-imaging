@@ -30,6 +30,12 @@ python testing_output_mainfile.py
 
 Output is saved as `transformed_liver_seg.nii.gz`.
 
+## Conceptual model
+
+![Conceptual model diagram](images/conceptual_model.png)
+
+
+
 I had Claude help me to format this in .md 
 
 
