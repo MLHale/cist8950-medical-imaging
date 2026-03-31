@@ -32,7 +32,7 @@ Output is saved as `transformed_liver_seg.nii.gz`.
 
 ## Conceptual model
 
-![Conceptual model diagram](images/conceptual_model.png)
+![Conceptual model diagram](images/conceptual_Model.png)
 
 
 
