@@ -4,7 +4,7 @@
 
 
 ```
-capstone/
+Project/
   Registration/              # Utility library — imported by Atlas pipeline
     Config.py                # All tunable parameters
     Run.py                   # Legacy CLI for pairwise TPS registration (kept for comparison)
