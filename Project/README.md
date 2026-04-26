@@ -39,7 +39,7 @@ capstone/
 
 ## Run Order
 
-Just ignore this for right now, I created a quick full pipeline wrapper that does a small test set just for "quick" illustration's sake, it should still take some time to do the segmentations its about 3-5 mins per, so probably close to 2 hours or so for 20 people 
+I created a quick full pipeline wrapper that does a small test set just for "quick" illustration's sake, it should still take some time to do the segmentations its about 3-5 mins per, so probably close to 2 hours or so for 20 people 
 
 Also wanted to just say as well, to change the name of the data folder to be just Data/ I have just a secondary folder that's called that just so that I didn't accidentally upload CT scans to GitHub lol
 
