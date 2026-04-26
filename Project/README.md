@@ -39,43 +39,13 @@ capstone/
 
 ## Run Order
 
-Just ignore this for right now, I created a quick full pipeline wrapper that does a small test set just for "quick" illustraton sakes it should still take some time to do the segmentations its about 3-5 mins per so probably close to 2 hours or so for 20 people 
+Just ignore this for right now, I created a quick full pipeline wrapper that does a small test set just for "quick" illustration's sake, it should still take some time to do the segmentations its about 3-5 mins per, so probably close to 2 hours or so for 20 people 
+
+Also wanted to just say as well, to change the name of the data folder to be just Data/ I have just a secondary folder that's called that just so that I didn't accidentally upload CT scans to GitHub lol
 
 
 
 
-### 1. Extract CTs and run TotalSegmentator
-```bash
-python Segmentation/run_totalsegmentator.py
-```
-
-### 2. Validate the dataset
-```bash
-python Validation/validate_dataset.py --source zip --zip-path Data/Totalsegmentator_dataset_v201.zip
-# Outputs: validation_report.csv, usable_patient_ids.txt
-```
-
-### 3. Build the liver atlas (rigid alignment only)
-```bash
-python -m Atlas.liver_atlas
-# Outputs: outputs/atlas/atlas_liver_density.nii.gz
-#          outputs/atlas/01_common_basis.html  
-#          outputs/atlas/02_average_liver.html
-#          outputs/atlas/03_density_slices.html
-#          outputs/reg_cache/rigid_0004_*.npz  ← cached alignments
-```
-
-### 4. Build the vascular distance cloud
-```bash
-python -m Atlas.vascular_distance
-# Uses cached alignments from step 3 — no re-registration
-# Outputs: outputs/atlas/vdc_*.html
-```
-
-### 5. (Optional) Pairwise TPS registration for evaluation
-```bash
-python -m Registration.Run --ref 0004 --src 0010 --skip-if-done
-```
 
 ## Key Design Decisions
 
@@ -89,4 +59,4 @@ alignment for each patient. Both `liver_atlas.py` and `vascular_distance.py` rea
 from the same cache so registration runs only once per patient total.
 
 **LOAD_EXISTING flag** — set to True in each Atlas script after the first run
-to reload saved outputs without re-running anything.
+to reload saved outputs without re-running anything. I need to just add a check for this rather than req the operator to change it 
