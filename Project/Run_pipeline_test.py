@@ -49,7 +49,7 @@ FEMALE_ATLAS_ID   = "0012"    # ← update to a confirmed female patient ID
 MALE_OUT_DIR      = Path("outputs/pipeline_test_male")
 FEMALE_OUT_DIR    = Path("outputs/pipeline_test_female")
 
-LOAD_EXISTING     = True     # set True after first run to skip recomputation
+LOAD_EXISTING     = False     # set True after first run to skip recomputation
 DENSITY_THRESHOLD = 0.5       # fraction of patients that must have liver at a voxel
 K_NEIGHBORS       = 5         # KD-tree neighbors for distance computation
 # ------------------------------------------------------------------
