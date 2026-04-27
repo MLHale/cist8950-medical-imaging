@@ -100,3 +100,69 @@ from the same cache so registration runs only once per patient total.
 
 **LOAD_EXISTING flag** — set to True in each Atlas script after the first run
 to reload saved outputs without re-running anything. I need to just add a check for this rather than req the operator to change it 
+
+## Docker Compose
+
+The repository root now includes a standalone Docker Compose setup that mounts
+this Project directory into the container and maps `Data(without CT)` to the
+`Data/` path the code expects.
+
+Build the image:
+
+```bash
+docker compose build
+```
+
+Build the image and use the GPU override:
+
+```bash
+docker compose -f docker-compose.yml -f docker-compose.gpu.yml build
+```
+
+Run the atlas workflow in-container (equivalent to running
+`python -m Atlas.liver_atlas` then `python -m Atlas.vascular_distance`
+from `Project/`):
+
+```bash
+docker compose up atlas
+```
+
+Run the same atlas workflow with GPU access enabled:
+
+```bash
+docker compose -f docker-compose.yml -f docker-compose.gpu.yml up atlas
+```
+
+Compatibility alias (runs the same atlas workflow):
+
+```bash
+docker compose up pipeline
+```
+
+Run the pairwise registration CLI:
+
+```bash
+docker compose run --rm -e REF_ID=0004 -e SRC_ID=0010 registration
+```
+
+Open an interactive shell inside the container:
+
+```bash
+docker compose run --rm shell
+```
+
+Open an interactive shell with GPU access enabled:
+
+```bash
+docker compose -f docker-compose.yml -f docker-compose.gpu.yml run --rm shell
+```
+
+Notes:
+
+- This setup is CPU-first. TotalSegmentator will run, but the full pipeline can
+  still take a long time without GPU acceleration.
+- The GPU override expects Docker Desktop to have GPU support available and the
+  NVIDIA container runtime/toolkit installed on the host.
+- Model downloads are cached in the named volume `totalsegmentator-cache`.
+- Outputs written under `Project/outputs/` stay on the host because the entire
+  `Project/` folder is bind-mounted into the container.

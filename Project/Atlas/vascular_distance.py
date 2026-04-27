@@ -650,7 +650,7 @@ if __name__ == "__main__":
 
     DATA_DIR  = Path("Data")
     CACHE_DIR = Path("outputs/reg_cache")   # shared with liver_atlas.py
-    LOAD_EXISTING = False
+    LOAD_EXISTING = True
 
     # Must match the ATLASES config in liver_atlas.py
     ATLASES = [

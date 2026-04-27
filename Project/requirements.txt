@@ -1,0 +1,7 @@
+numpy
+scipy
+nibabel
+matplotlib
+plotly
+scikit-image
+TotalSegmentator

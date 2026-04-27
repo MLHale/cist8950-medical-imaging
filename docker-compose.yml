@@ -1,0 +1,118 @@
+services:
+  atlas:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: cist8950-medical-imaging:local
+    working_dir: /workspace/Project
+    environment:
+      PYTHONPATH: /workspace/Project
+      MPLBACKEND: Agg
+    stdin_open: true
+    tty: true
+    volumes:
+      - type: bind
+        source: ./Project
+        target: /workspace/Project
+      - type: bind
+        source: ./Project/Data(without CT)
+        target: /workspace/Project/Data
+      - type: volume
+        source: totalsegmentator-cache
+        target: /root/.totalsegmentator
+    command:
+      [
+        "sh",
+        "-lc",
+        "python -m Atlas.liver_atlas && python -m Atlas.vascular_distance"
+      ]
+
+  pipeline:
+    image: cist8950-medical-imaging:local
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /workspace/Project
+    environment:
+      PYTHONPATH: /workspace/Project
+      MPLBACKEND: Agg
+    stdin_open: true
+    tty: true
+    volumes:
+      - type: bind
+        source: ./Project
+        target: /workspace/Project
+      - type: bind
+        source: ./Project/Data(without CT)
+        target: /workspace/Project/Data
+      - type: volume
+        source: totalsegmentator-cache
+        target: /root/.totalsegmentator
+    command:
+      [
+        "sh",
+        "-lc",
+        "python -m Atlas.liver_atlas && python -m Atlas.vascular_distance"
+      ]
+
+  registration:
+    image: cist8950-medical-imaging:local
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /workspace/Project
+    environment:
+      PYTHONPATH: /workspace/Project
+      MPLBACKEND: Agg
+    stdin_open: true
+    tty: true
+    volumes:
+      - type: bind
+        source: ./Project
+        target: /workspace/Project
+      - type: bind
+        source: ./Project/Data(without CT)
+        target: /workspace/Project/Data
+      - type: volume
+        source: totalsegmentator-cache
+        target: /root/.totalsegmentator
+    command:
+      [
+        "python",
+        "-m",
+        "Registration.Run",
+        "--ref",
+        "${REF_ID:-0004}",
+        "--src",
+        "${SRC_ID:-0010}",
+        "--data-dir",
+        "Data",
+        "--out-dir",
+        "outputs"
+      ]
+
+  shell:
+    image: cist8950-medical-imaging:local
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /workspace/Project
+    environment:
+      PYTHONPATH: /workspace/Project
+      MPLBACKEND: Agg
+    stdin_open: true
+    tty: true
+    volumes:
+      - type: bind
+        source: ./Project
+        target: /workspace/Project
+      - type: bind
+        source: ./Project/Data(without CT)
+        target: /workspace/Project/Data
+      - type: volume
+        source: totalsegmentator-cache
+        target: /root/.totalsegmentator
+    command: ["sh"]
+
+volumes:
+  totalsegmentator-cache:
