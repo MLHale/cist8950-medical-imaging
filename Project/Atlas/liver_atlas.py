@@ -561,9 +561,6 @@ if __name__ == "__main__":
     DATA_DIR  = Path("Data")
     CACHE_DIR = Path("outputs/reg_cache")   # shared across all atlases
 
-    # Set True after the first run of each atlas to reload without re-running
-    LOAD_EXISTING = True
-
     print_cohort_summary(DATA_DIR)
 
     # ------------------------------------------------------------------
@@ -608,7 +605,8 @@ if __name__ == "__main__":
             cache_dir = CACHE_DIR,        # shared cache — rigid alignments reused
         )
 
-        if LOAD_EXISTING:
+        load_existing = (out_dir / "atlas_liver_density.nii.gz").exists()
+        if load_existing:
             atlas.load(out_dir)
         else:
             atlas.build(source_ids)

@@ -393,7 +393,7 @@ class VascularDistanceCloud:
         self.n_patients = int(np.load(n_path)) if n_path.exists() else len(self.mean_dist_combined)
         log.info(f"  Loaded VascularDistanceCloud from {out_dir}")
         if self.all_voxel_idx is not None and self.all_voxel_idx.max() < 10:
-            log.warning("  all_voxel_idx looks wrong — re-run with LOAD_EXISTING=False")
+            log.warning("  all_voxel_idx looks wrong — delete the output folder and re-run to rebuild")
         self._print_stats()
 
     # ------------------------------------------------------------------
@@ -653,7 +653,6 @@ if __name__ == "__main__":
 
     DATA_DIR  = Path("Data")
     CACHE_DIR = Path("outputs/reg_cache")   # shared with liver_atlas.py
-    LOAD_EXISTING = True
 
     # Must match the ATLASES config in liver_atlas.py
     ATLASES = [
@@ -697,7 +696,8 @@ if __name__ == "__main__":
             k_neighbors       = 5,
         )
 
-        if LOAD_EXISTING:
+        load_existing = (out_dir / "vdc_dist_combined.npy").exists()
+        if load_existing:
             vdc.load(out_dir)
         else:
             vdc.build(source_ids)
