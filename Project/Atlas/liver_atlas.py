@@ -321,6 +321,7 @@ class LiverAtlas:
         log.info(f"  Saved {path}")
 
         np.save(out_dir / "ref_surface_mm.npy", self.ref_surface_mm)
+        np.save(out_dir / "n_patients.npy", np.array(self.n_patients))
         for pid, cloud in self.surface_clouds_mm.items():
             np.save(out_dir / f"surface_{pid}_mm.npy", cloud)
         log.info(f"  Saved surface clouds for {len(self.surface_clouds_mm)} patient(s).")
@@ -339,6 +340,9 @@ class LiverAtlas:
         for cp in sorted(out_dir.glob("surface_*_mm.npy")):
             pid = cp.stem.replace("surface_", "").replace("_mm", "")
             self.surface_clouds_mm[pid] = np.load(cp)
+
+        n_path = out_dir / "n_patients.npy"
+        self.n_patients = int(np.load(n_path)) if n_path.exists() else len(self.surface_clouds_mm) + 1
 
         log.info(f"  Atlas loaded from {out_dir}  "
                  f"({len(self.surface_clouds_mm)} source clouds)")
@@ -558,7 +562,7 @@ if __name__ == "__main__":
     CACHE_DIR = Path("outputs/reg_cache")   # shared across all atlases
 
     # Set True after the first run of each atlas to reload without re-running
-    LOAD_EXISTING = False
+    LOAD_EXISTING = True
 
     print_cohort_summary(DATA_DIR)
 

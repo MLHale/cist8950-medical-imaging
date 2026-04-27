@@ -375,6 +375,7 @@ class VascularDistanceCloud:
         np.save(out_dir / "vdc_dist_hepatic.npy",       self.mean_dist_hepatic)
         np.save(out_dir / "vdc_dist_combined.npy",      self.mean_dist_combined)
         np.save(out_dir / "vdc_atlas_affine.npy",       self.atlas_affine)
+        np.save(out_dir / "vdc_n_patients.npy",            np.array(self.n_patients))
         log.info(f"  Saved VascularDistanceCloud to {out_dir}")
 
     def load(self, out_dir: Path) -> None:
@@ -388,6 +389,8 @@ class VascularDistanceCloud:
         self.mean_dist_hepatic  = np.load(out_dir / "vdc_dist_hepatic.npy")
         self.mean_dist_combined = np.load(out_dir / "vdc_dist_combined.npy")
         self.atlas_affine       = np.load(out_dir / "vdc_atlas_affine.npy")
+        n_path = out_dir / "vdc_n_patients.npy"
+        self.n_patients = int(np.load(n_path)) if n_path.exists() else len(self.mean_dist_combined)
         log.info(f"  Loaded VascularDistanceCloud from {out_dir}")
         if self.all_voxel_idx is not None and self.all_voxel_idx.max() < 10:
             log.warning("  all_voxel_idx looks wrong — re-run with LOAD_EXISTING=False")
@@ -650,7 +653,7 @@ if __name__ == "__main__":
 
     DATA_DIR  = Path("Data")
     CACHE_DIR = Path("outputs/reg_cache")   # shared with liver_atlas.py
-    LOAD_EXISTING = False
+    LOAD_EXISTING = True
 
     # Must match the ATLASES config in liver_atlas.py
     ATLASES = [
