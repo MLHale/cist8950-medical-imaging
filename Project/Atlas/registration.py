@@ -1,6 +1,11 @@
 # Atlas/registration.py
 # Tristan Jones — Spring 2026 Capstone
 #
+# AI Use Disclosure
+#   Student estimate: 55% student-designed, 45% AI-assisted implementation
+#   Claude assisted with: npz save/load, forward_warp_mask, apply_rigid_to_volume, compute_warp_extents
+#   See: "Documentation/AI Use Disclosure.md" for full details
+#
 # Thin wrapper around Registration.stages.* that the Atlas package uses.
 #
 # The Atlas only needs:
@@ -39,6 +44,7 @@ log = logging.getLogger(__name__)
 # ---------------------------------------------------------------------------
 
 def _cache_path(cache_dir: Path, atlas_id: str, patient_id: str) -> Path:
+    """Helper for cache path."""
     return cache_dir / f"rigid_{atlas_id}_{patient_id}.npz"
 
 
@@ -279,6 +285,7 @@ def align_patient(patient_id: str,
     # the scanner geometry, which is consistent across all patients.
     if canonical_direction is not None:
         def _dir(affine):
+            """Helper for dir."""
             rot   = affine[:3, :3]
             zooms = np.sqrt((rot**2).sum(axis=0))
             return rot / zooms

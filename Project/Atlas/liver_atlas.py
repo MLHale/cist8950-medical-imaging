@@ -1,6 +1,11 @@
 # Atlas/liver_atlas.py
 # Tristan Jones — Spring 2026 Capstone
 #
+# AI Use Disclosure
+#   Student estimate: 80% student-designed, 20% AI-assisted implementation
+#   Claude assisted with: two-pass build loop implementation, global offset computation
+#   See: "Documentation/AI Use Disclosure.md" for full details
+#
 # Probabilistic Liver Atlas — "Electron Cloud" Model
 #
 # Dr. Hale's framing (the question that must come first):
@@ -73,10 +78,13 @@ class LiverAtlas:
     def __init__(self,
                  atlas_id: str,
                  data_dir: Path = Path("Data"),
-                 cache_dir: Path = Path("outputs/reg_cache")):
+                 cache_dir: Path = Path("outputs/reg_cache"),
+                 cohort_label: Optional[str] = None):
+        """Helper for init."""
         self.atlas_id  = atlas_id
         self.data_dir  = Path(data_dir)
         self.cache_dir = Path(cache_dir)
+        self.cohort_label = cohort_label
 
         self.liver_density     : Optional[np.ndarray] = None
         self.atlas_affine      : Optional[np.ndarray] = None
@@ -84,8 +92,16 @@ class LiverAtlas:
         self.ref_surface_mm    : Optional[np.ndarray]  = None
         self.surface_clouds_mm : dict[str, np.ndarray] = {}
         self.n_patients        = 0
+        self.display_n_patients = 0
         self.registration_dice : dict = {}
         self._liver_acc        : Optional[np.ndarray] = None
+
+    def _cohort_subject_text(self) -> str:
+        """Return cohort-aware subject count text for figure titles."""
+        count = self.display_n_patients or self.n_patients
+        if self.cohort_label:
+            return f"{count} {self.cohort_label} subjects"
+        return f"{count} subjects"
 
     # ------------------------------------------------------------------
     # Build
@@ -300,6 +316,7 @@ class LiverAtlas:
                 log.warning(f"  Patient {pid} failed: {exc}", exc_info=True)
 
         self.n_patients    = n_accumulated
+        self.display_n_patients = len(self.surface_clouds_mm)
         self.liver_density = self._liver_acc / n_accumulated
         nz = self.liver_density[self.liver_density > 0]
         print(f"\n  Atlas built from {n_accumulated} patient(s).")
@@ -312,6 +329,7 @@ class LiverAtlas:
     # ------------------------------------------------------------------
 
     def save(self, out_dir: Path) -> None:
+        """Execute save."""
         out_dir = Path(out_dir)
         out_dir.mkdir(parents=True, exist_ok=True)
 
@@ -327,6 +345,7 @@ class LiverAtlas:
         log.info(f"  Saved surface clouds for {len(self.surface_clouds_mm)} patient(s).")
 
     def load(self, out_dir: Path) -> None:
+        """Execute load."""
         out_dir = Path(out_dir)
         img = nib.load(str(out_dir / "atlas_liver_density.nii.gz"))
         self.atlas_affine  = img.affine
@@ -343,6 +362,7 @@ class LiverAtlas:
 
         n_path = out_dir / "n_patients.npy"
         self.n_patients = int(np.load(n_path)) if n_path.exists() else len(self.surface_clouds_mm) + 1
+        self.display_n_patients = len(self.surface_clouds_mm) or max(self.n_patients - 1, 0)
 
         log.info(f"  Atlas loaded from {out_dir}  "
                  f"({len(self.surface_clouds_mm)} source clouds)")
@@ -353,11 +373,26 @@ class LiverAtlas:
 
     def visualize_common_basis(self,
                                 point_cap: int = 3000,
+                                mesh_offset_mm: tuple[float, float, float] = (0.0, 0.0, 0.0),
+                                side_by_side_mesh: bool = False,
+                                side_by_side_gap_mm: float = 25.0,
                                 output_html: Optional[str] = None) -> None:
         """
         Overlay all liver surface clouds in atlas mm space.
         Green = reference patient. Each source patient gets its own color.
         Tight overlap = common basis is working.
+
+        Args:
+            point_cap: Maximum points shown per cloud.
+            mesh_offset_mm: Optional (x, y, z) offset in mm applied to the
+                Stage-1 marching-cubes shell for visual separation.
+            side_by_side_mesh: If True, ignores mesh_offset_mm and computes an
+                automatic x-offset that places the shell entirely to the right
+                of all point clouds.
+            side_by_side_gap_mm: Gap (mm) between the right edge of the clouds
+                and the left edge of the shifted shell when side_by_side_mesh
+                is enabled.
+            output_html: Optional file path to save the interactive figure.
         """
         if self.ref_surface_mm is None:
             raise RuntimeError("No surface data — run build() or load() first.")
@@ -397,13 +432,30 @@ class LiverAtlas:
                 self.liver_density, 0.5, "#3cb44b", 0.08,
                 "Average liver (≥50%)", self.atlas_affine)
             if mesh:
+                dx, dy, dz = mesh_offset_mm
+                if side_by_side_mesh:
+                    cloud_max_x = float(np.max(ref_pts[:, 0]))
+                    for cloud in self.surface_clouds_mm.values():
+                        if len(cloud) > 0:
+                            cloud_max_x = max(cloud_max_x, float(np.max(cloud[:, 0])))
+
+                    mesh_min_x = float(np.min(np.asarray(mesh.x)))
+                    dx = (cloud_max_x + side_by_side_gap_mm) - mesh_min_x
+                    dy = 0.0
+                    dz = 0.0
+
+                if dx != 0.0 or dy != 0.0 or dz != 0.0:
+                    mesh.x = np.asarray(mesh.x) + dx
+                    mesh.y = np.asarray(mesh.y) + dy
+                    mesh.z = np.asarray(mesh.z) + dz
+                    mesh.name = f"{mesh.name} (offset ({dx:.1f}, {dy:.1f}, {dz:.1f}) mm)"
                 traces.append(mesh)
 
         fig = go.Figure(data=traces)
         fig.update_layout(
             title=dict(
                 text=(f"Stage 1 — Common Basis Diagnostic — "
-                      f"{len(self.surface_clouds_mm)+1} patient(s)<br>"
+                      f"{self._cohort_subject_text()}<br>"
                       f"<sup>Colored clouds should overlap the green reference</sup>"),
                 x=0.5,
             ),
@@ -455,12 +507,27 @@ class LiverAtlas:
         fig = go.Figure(data=traces)
         fig.update_layout(
             title=dict(
-                text=(f"Stage 2 — Average Liver — {self.n_patients} patient(s)<br>"
+                text=(f"Stage 2 — Average Liver — {self._cohort_subject_text()}<br>"
                       f"<sup>Nested shells show cross-patient consistency</sup>"),
-                x=0.5),
+                x=0.5,
+                y=0.96,
+                xanchor="center",
+                yanchor="top"),
             scene=dict(xaxis_title="x (mm)", yaxis_title="y (mm)",
-                       zaxis_title="z (mm)", aspectmode="data"),
-            margin=dict(l=0, r=0, t=90, b=0),
+                       zaxis_title="z (mm)", aspectmode="data",
+                       domain=dict(x=[0.0, 0.83], y=[0.0, 1.0])),
+            legend=dict(
+                x=0.85,
+                y=0.94,
+                xanchor="left",
+                yanchor="top",
+                bgcolor="rgba(255,255,255,0.75)",
+                bordercolor="rgba(0,0,0,0.15)",
+                borderwidth=1,
+            ),
+            margin=dict(l=20, r=20, t=70, b=20),
+            width=1250,
+            height=780,
         )
 
         if output_html:
@@ -474,12 +541,27 @@ class LiverAtlas:
 
     def visualize_density_slices(self,
                                   output_html: Optional[str] = None) -> None:
-        """Scrollable axial heatmap of the liver density volume."""
+        """Scrollable axial heatmap cropped to the liver-density extent."""
         if self.liver_density is None:
             raise RuntimeError("No density data — run build() or load() first.")
 
         print("Building axial slice browser...")
-        vol = self.liver_density
+        vol_full = self.liver_density
+
+        present = vol_full > 0
+        if np.any(present):
+            vox_idx = np.argwhere(present)
+            x_min, y_min, z_min = vox_idx.min(axis=0)
+            x_max, y_max, z_max = vox_idx.max(axis=0)
+            vol = vol_full[x_min:x_max+1, y_min:y_max+1, z_min:z_max+1]
+            print(f"  Cropped extent: x={x_min}–{x_max}  y={y_min}–{y_max}  "
+                  f"z={z_min}–{z_max}  ({z_max-z_min+1} slices)")
+        else:
+            # Defensive fallback for empty volumes.
+            x_min, y_min, z_min = 0, 0, 0
+            vol = vol_full
+            print("  Warning: no nonzero density voxels found; using full volume extent")
+
         n_z = vol.shape[2]
         mid = n_z // 2
 
@@ -494,10 +576,11 @@ class LiverAtlas:
             for z in range(n_z)
         ]
 
-        layout = make_slider_layout(n_z, mid)
+        layout = make_slider_layout(n_z, mid, prefix="Axial slice z=")
         fig.update_layout(
             title=dict(text=f"Stage 3 — Liver Density Slices — "
-                            f"{self.n_patients} patient(s)", x=0.5),
+                            f"{self._cohort_subject_text()}<br>"
+                            f"<sup>Cropped to liver extent; global z start={z_min}</sup>", x=0.5),
             xaxis_title="x (voxels)", yaxis_title="y (voxels)",
             height=550, margin=dict(l=60, r=60, t=80, b=80),
             **layout,
@@ -513,6 +596,7 @@ class LiverAtlas:
     # ------------------------------------------------------------------
 
     def print_registration_summary(self) -> None:
+        """Execute print registration summary."""
         if not self.registration_dice:
             print("No registration results yet.")
             return
@@ -530,6 +614,7 @@ class LiverAtlas:
     # ------------------------------------------------------------------
 
     def _print_spread_stats(self) -> None:
+        """Helper for print spread stats."""
         if not self.surface_clouds_mm:
             return
         centroids = np.array([c.mean(axis=0) for c in self.surface_clouds_mm.values()])
@@ -560,6 +645,7 @@ if __name__ == "__main__":
 
     DATA_DIR  = Path("Data")
     CACHE_DIR = Path("outputs/reg_cache")   # shared across all atlases
+    USE_VALIDATED_IDS = True  # intersect reviewed cohorts with Validation/usable_patient_ids.txt
 
     print_cohort_summary(DATA_DIR)
 
@@ -596,6 +682,7 @@ if __name__ == "__main__":
             DATA_DIR,
             cohort      = cfg["cohort"],
             exclude_ids = [atlas_id],     # don't register reference to itself
+            use_validated_ids = USE_VALIDATED_IDS,
         )
         print(f"  Source patients: {len(source_ids)}")
 
@@ -603,17 +690,29 @@ if __name__ == "__main__":
             atlas_id  = atlas_id,
             data_dir  = DATA_DIR,
             cache_dir = CACHE_DIR,        # shared cache — rigid alignments reused
+            cohort_label = label,
         )
 
         load_existing = (out_dir / "atlas_liver_density.nii.gz").exists()
         if load_existing:
             atlas.load(out_dir)
+            # Atlas n_patients includes the reference patient (+1).
+            expected_n = len(source_ids) + 1
+            if atlas.n_patients != expected_n:
+                print(
+                    f"  Cached atlas patient count mismatch: "
+                    f"saved={atlas.n_patients}, expected={expected_n}. Rebuilding..."
+                )
+                atlas.build(source_ids)
+                atlas.save(out_dir)
         else:
             atlas.build(source_ids)
             atlas.save(out_dir)
 
         atlas.print_registration_summary()
         atlas.visualize_common_basis(
+            side_by_side_mesh=True,
+            side_by_side_gap_mm=25.0,
             output_html=str(out_dir / "01_common_basis.html"))
         atlas.visualize_average_liver(
             output_html=str(out_dir / "02_average_liver.html"))

@@ -1,11 +1,16 @@
 # Atlas/vascular_distance.py
 # Tristan Jones — Spring 2026 Capstone
 #
+# AI Use Disclosure
+#   Student estimate: 55% student-designed, 45% AI-assisted implementation
+#   Claude assisted with: VascularDistanceCloud class, NaN-safe accumulation, Plotly visualizations
+#   See: "Documentation/AI Use Disclosure.md" for full details
+#
 # Distance-to-Vasculature Electron Cloud
 #
-# Key design choice (from capstone discussion):
+# Key design choice:
 #   Distances are computed in each patient's OWN native space first,
-#   then the resulting distance map is rigidly warped into atlas space.
+#   then the resulting distance map is rigidly warped into "atlas space".
 #   This avoids introducing registration error into the distance values —
 #   the distances are exact (computed before any warping), and only the
 #   rigid alignment is needed to bring them into a common coordinate frame.
@@ -56,7 +61,13 @@ log = logging.getLogger(__name__)
 
 
 def _accum(total: np.ndarray, count: np.ndarray, values: np.ndarray) -> None:
-    """NaN-safe accumulation — skips NaN entries and increments count."""
+    """Accumulate valid values into running sum and observation count.
+
+    Args:
+        total: Running sum array updated in place.
+        count: Running valid-observation count array updated in place.
+        values: New values to accumulate. NaN entries are ignored.
+    """
     valid = ~np.isnan(values)
     total[valid] += values[valid]
     count[valid] += 1
@@ -74,13 +85,13 @@ class VascularDistanceCloud:
     Usage
     -----
     vdc = VascularDistanceCloud(atlas_id="0004", data_dir=Path("Data"))
-    vdc.build(["0010", "0011", "0012", "0013"])
+    vdc.build(["0010", "0011", "0012", "0013"]) full set of desired subjects
     vdc.save(Path("outputs/atlas"))
 
     vdc.visualize()                    # 3-D colored point cloud
     vdc.visualize_all_modes()          # portal / hepatic / combined side by side
-    vdc.visualize_distance_slices()    # axial slice browser
-    vdc.visualize_distance_histogram() # sanity check distribution
+    vdc.visualize_distance_slices()    # axial slice browser from utils.py
+    vdc.visualize_distance_histogram() # check distribution 
     """
 
     def __init__(self,
@@ -89,13 +100,25 @@ class VascularDistanceCloud:
                  cache_dir: Path = Path("outputs/reg_cache"),
                  atlas_dir: Path = Path("outputs/atlas_male"),
                  density_threshold: float = 0.5,
-                 k_neighbors: int = 5):
+                 k_neighbors: int = 5,
+                 cohort_label: Optional[str] = None):
+        """Initialize vascular-distance atlas builder and visualization state.
+
+        Args:
+            atlas_id: Patient ID used as rigid-registration reference.
+            data_dir: Root directory containing patient segmentations.
+            cache_dir: Directory with cached registration artifacts and extents.
+            atlas_dir: Output atlas directory containing density and saved arrays.
+            density_threshold: Liver consensus threshold on atlas density map.
+            k_neighbors: Number of nearest vessel voxels used for mean distance.
+        """
         self.atlas_id          = atlas_id
         self.data_dir          = Path(data_dir)
         self.cache_dir         = Path(cache_dir)
         self.atlas_dir         = Path(atlas_dir)
         self.density_threshold = density_threshold
         self.k                 = k_neighbors
+        self.cohort_label      = cohort_label
 
         # Full-resolution distance arrays (one value per liver voxel)
         # Used by slice browser and histogram
@@ -113,6 +136,12 @@ class VascularDistanceCloud:
         self.n_patients   = 0
         self.atlas_affine : Optional[np.ndarray] = None
         self.atlas_shape  : Optional[tuple] = None
+
+    def _cohort_subject_text(self) -> str:
+        """Return cohort-aware subject count text for titles/logs."""
+        if self.cohort_label:
+            return f"{self.n_patients} {self.cohort_label} subjects"
+        return f"{self.n_patients} subjects"
 
     # ------------------------------------------------------------------
     # Build
@@ -223,6 +252,7 @@ class VascularDistanceCloud:
         ref_pts_full = voxels_to_mm(ref_vox_idx.astype(np.float32), ref_affine)
 
         def _mask_or_empty(mask):
+            """Return a valid binary volume even when a vessel mask is missing."""
             return mask if mask is not None else np.zeros((1, 1, 1), dtype=np.uint8)
 
         ref_portal_mm  = extract_vessel_mm(_mask_or_empty(ref_data.get("portal_vein")), ref_affine)
@@ -235,7 +265,6 @@ class VascularDistanceCloud:
         _accum(portal_sum,   portal_count,   ref_d_p)
         _accum(hepatic_sum,  hepatic_count,  ref_d_h)
         _accum(combined_sum, combined_count, ref_d_c)
-        n_accumulated = 1
 
         # ---- Source patients ----
         for pid in patient_ids:
@@ -271,6 +300,7 @@ class VascularDistanceCloud:
                 # Scatter into dense native-space volumes for warping
                 src_shape = src_liver.shape
                 def _to_vol(distances):
+                    """Scatter sparse liver distances into a dense NaN-padded volume."""
                     vol = np.full(src_shape, np.nan, dtype=np.float32)
                     valid = ~np.isnan(distances)
                     xi, yi, zi = (src_vox_idx[valid, 0],
@@ -317,6 +347,7 @@ class VascularDistanceCloud:
                               ref_vox_idx[:, 2])
 
                 def _safe_sample(warped_vol):
+                    """Sample warped volume at reference voxels and mark missing data NaN."""
                     out = np.full(n_pts, np.nan, dtype=np.float32)
                     valid = ((xi < warped_vol.shape[0]) &
                              (yi < warped_vol.shape[1]) &
@@ -334,15 +365,16 @@ class VascularDistanceCloud:
                 _accum(portal_sum,   portal_count,   d_p)
                 _accum(hepatic_sum,  hepatic_count,  d_h)
                 _accum(combined_sum, combined_count, d_c)
-
-                n_accumulated += 1
                 log.info(f"  Patient {pid} done.")
 
             except Exception as exc:
                 log.warning(f"  Patient {pid} failed: {exc}", exc_info=True)
 
         # ---- Normalise ----
-        self.n_patients = n_accumulated
+        # Cohort size is reported as source patient count (validated IDs,
+        # excluding atlas reference), while the reference still contributes
+        # to the accumulated averages above.
+        self.n_patients = len(patient_ids)
 
         full_p = np.where(portal_count   > 0, portal_sum   / portal_count,   np.nan).astype(np.float32)
         full_h = np.where(hepatic_count  > 0, hepatic_sum  / hepatic_count,  np.nan).astype(np.float32)
@@ -364,6 +396,11 @@ class VascularDistanceCloud:
     # ------------------------------------------------------------------
 
     def save(self, out_dir: Path) -> None:
+        """Persist computed voxel grids and distance arrays to disk.
+
+        Args:
+            out_dir: Destination directory for .npy outputs.
+        """
         out_dir = Path(out_dir)
         out_dir.mkdir(parents=True, exist_ok=True)
         np.save(out_dir / "vdc_all_voxel_idx.npy",      self.all_voxel_idx)
@@ -379,6 +416,11 @@ class VascularDistanceCloud:
         log.info(f"  Saved VascularDistanceCloud to {out_dir}")
 
     def load(self, out_dir: Path) -> None:
+        """Load previously saved vascular-distance arrays from disk.
+
+        Args:
+            out_dir: Directory containing files written by save().
+        """
         out_dir = Path(out_dir)
         self.all_voxel_idx      = np.load(out_dir / "vdc_all_voxel_idx.npy")
         self.full_dist_portal   = np.load(out_dir / "vdc_full_dist_portal.npy")
@@ -404,7 +446,13 @@ class VascularDistanceCloud:
                   mode: str = "combined",
                   point_cap: int = 50_000,
                   output_html: Optional[str] = None) -> None:
-        """3-D scatter colored by mean distance. red=close, blue=far."""
+        """Render a 3-D liver point cloud colored by mean vessel distance.
+
+        Args:
+            mode: Distance channel to display: portal, hepatic, or combined.
+            point_cap: Maximum number of points plotted for interactivity.
+            output_html: Optional path to save the Plotly figure as HTML.
+        """
         if self.surface_pts_mm is None:
             raise RuntimeError("No data — run build() or load() first.")
 
@@ -427,7 +475,7 @@ class VascularDistanceCloud:
             dists = dists[idx]
 
         print(f"  Plotting {len(pts):,} points  (mode={mode}, "
-              f"{self.n_patients} patient(s))")
+              f"{self._cohort_subject_text()})")
         print(f"  Distance range: {dists.min():.1f}–{dists.max():.1f} mm  "
               f"mean={dists.mean():.1f} mm")
 
@@ -446,7 +494,7 @@ class VascularDistanceCloud:
         ))
         fig.update_layout(
             title=dict(
-                text=(f"Distance-to-Vasculature — {self.n_patients} patient(s)<br>"
+                text=(f"Distance-to-Vasculature — {self._cohort_subject_text()}<br>"
                       f"<sup>{label}  (k={self.k})  red=close  blue=far</sup>"),
                 x=0.5),
             scene=dict(xaxis_title="x (mm)", yaxis_title="y (mm)",
@@ -460,7 +508,11 @@ class VascularDistanceCloud:
         fig.show()
 
     def visualize_all_modes(self, output_html: Optional[str] = None) -> None:
-        """Portal / hepatic / combined side by side with shared color scale."""
+        """Render portal, hepatic, and combined distance clouds side by side.
+
+        Args:
+            output_html: Optional path to save the Plotly figure as HTML.
+        """
         if self.surface_pts_mm is None:
             raise RuntimeError("No data — run build() or load() first.")
 
@@ -496,7 +548,7 @@ class VascularDistanceCloud:
         scene = dict(xaxis_title="x (mm)", yaxis_title="y (mm)",
                      zaxis_title="z (mm)", aspectmode="data")
         fig.update_layout(
-            title=dict(text=f"Distance-to-Vasculature — {self.n_patients} patient(s)  "
+            title=dict(text=f"Distance-to-Vasculature — {self._cohort_subject_text()}  "
                             f"red=close  blue=far", x=0.5),
             scene=scene, scene2=scene, scene3=scene,
             margin=dict(l=0, r=60, t=80, b=0),
@@ -514,7 +566,12 @@ class VascularDistanceCloud:
     def visualize_distance_slices(self,
                                    mode: str = "combined",
                                    output_html: Optional[str] = None) -> None:
-        """Scrollable axial heatmap using full-resolution distance data."""
+        """Render an axial slice browser over full-resolution distance voxels.
+
+        Args:
+            mode: Distance channel to display: portal, hepatic, or combined.
+            output_html: Optional path to save the Plotly figure as HTML.
+        """
         if self.all_voxel_idx is None:
             raise RuntimeError("No data — run build() or load() first.")
 
@@ -571,7 +628,7 @@ class VascularDistanceCloud:
         fig.update_layout(
             title=dict(
                 text=(f"Distance-to-Vasculature Axial Slices — "
-                      f"{self.n_patients} patient(s)<br>"
+                      f"{self._cohort_subject_text()}<br>"
                       f"<sup>Colored by mean distance to {structure_label} — "
                       f"red=close  blue=far</sup>"),
                 x=0.5),
@@ -591,7 +648,11 @@ class VascularDistanceCloud:
 
     def visualize_distance_histogram(self,
                                       output_html: Optional[str] = None) -> None:
-        """Distribution of mean distances — sanity check for registration quality."""
+        """Render histogram of combined distance values across liver voxels.
+
+        Args:
+            output_html: Optional path to save the Plotly figure as HTML.
+        """
         if self.full_dist_combined is None:
             raise RuntimeError("No data — run build() or load() first.")
 
@@ -604,8 +665,8 @@ class VascularDistanceCloud:
         fig.add_vline(x=float(np.median(valid)), line_dash="dot",
                       line_color="orange", annotation_text=f"median {np.median(valid):.1f}mm")
         fig.update_layout(
-            title=dict(text=f"Surface-to-Vasculature Distance Distribution — "
-                            f"{self.n_patients} patient(s)", x=0.5),
+            title=dict(text=f"Distance to Vasculature Distribution — "
+                            f"{self._cohort_subject_text()}", x=0.5),
             xaxis_title="Mean distance to nearest vessel (mm)",
             yaxis_title="Number of liver voxels",
             bargap=0.05, margin=dict(l=60, r=20, t=80, b=60),
@@ -621,7 +682,8 @@ class VascularDistanceCloud:
     # ------------------------------------------------------------------
 
     def _print_stats(self) -> None:
-        print(f"\n  === VascularDistanceCloud ({self.n_patients} patient(s)) ===")
+        """Print summary statistics for currently loaded full-resolution maps."""
+        print(f"\n  === VascularDistanceCloud ({self._cohort_subject_text()}) ===")
         for name, arr in [("Portal",   self.full_dist_portal),
                           ("Hepatic",  self.full_dist_hepatic),
                           ("Combined", self.full_dist_combined)]:
@@ -641,10 +703,6 @@ class VascularDistanceCloud:
 # Entry point
 # ---------------------------------------------------------------------------
 
-# ---------------------------------------------------------------------------
-# Entry point
-# ---------------------------------------------------------------------------
-
 if __name__ == "__main__":
     import logging
     logging.basicConfig(level=logging.INFO, format="%(message)s")
@@ -653,6 +711,7 @@ if __name__ == "__main__":
 
     DATA_DIR  = Path("Data")
     CACHE_DIR = Path("outputs/reg_cache")   # shared with liver_atlas.py
+    USE_VALIDATED_IDS = True  # intersect reviewed cohorts with Validation/usable_patient_ids.txt
 
     # Must match the ATLASES config in liver_atlas.py
     ATLASES = [
@@ -664,7 +723,7 @@ if __name__ == "__main__":
         },
         {
             "label":    "female",
-            "atlas_id": "0011",           # ← same reference as in liver_atlas.py
+            "atlas_id": "0011",     
             "cohort":   "female",
             "out_dir":  Path("outputs/atlas_female"),
         },
@@ -684,6 +743,7 @@ if __name__ == "__main__":
             DATA_DIR,
             cohort      = cfg["cohort"],
             exclude_ids = [atlas_id],
+            use_validated_ids = USE_VALIDATED_IDS,
         )
         print(f"  Source patients: {len(source_ids)}")
 
@@ -694,11 +754,23 @@ if __name__ == "__main__":
             atlas_dir         = out_dir,
             density_threshold = 0.5,
             k_neighbors       = 5,
+            cohort_label      = label,
         )
 
         load_existing = (out_dir / "vdc_dist_combined.npy").exists()
         if load_existing:
-            vdc.load(out_dir)
+            expected_n = len(source_ids)
+            n_path = out_dir / "vdc_n_patients.npy"
+            cached_n = int(np.load(n_path)) if n_path.exists() else None
+            if cached_n != expected_n:
+                print(
+                    f"  Cached VDC patient count mismatch: "
+                    f"saved={cached_n}, expected={expected_n}. Rebuilding..."
+                )
+                vdc.build(source_ids)
+                vdc.save(out_dir)
+            else:
+                vdc.load(out_dir)
         else:
             vdc.build(source_ids)
             vdc.save(out_dir)
