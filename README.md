@@ -1,5 +1,7 @@
 # Liver Atlas Capstone — Tristan Jones, Spring 2026
 
+See other readme in project folder this is the same thing 
+
 ## Project Structure
 
 
