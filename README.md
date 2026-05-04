@@ -39,6 +39,27 @@ capstone/
     reg_cache/               # Cached rigid alignment .npz files (one per patient)
 ```
 
+
+## Install Instructions
+
+### Requirements
+- Python 3.9+
+- ~25GB disk space for the full dataset
+- CPU hardware (no GPU required, however GPU will be faster for segmentations)
+- nibabel
+- numpy
+- scipy
+- plotly
+- matplotlib
+- totalsegmentator
+
+### Installation Instructions
+1. Clone the repository from GitHub
+2. Run `pip install nibabel numpy totalsegmentator matplotlib scipy plotly`
+3. Download `Totalsegmentator_dataset_v201.zip` from https://zenodo.org/records/10047292
+4. Extract into a `Data/` folder in the project directory (rename folder)
+
+
 ## Run Order
 
 Run from the project root (`Project/`) in this order.
