@@ -1,3 +1,12 @@
+# Tristan Jones 
+# Spring 2026 Capstone 
+#
+# AI Use Disclosure — LEGACY FILE (not used in current pipeline)
+#   Student estimate: 30% student-designed, 70% AI-assisted implementation
+#   Claude assisted with: full pickle-based save/load/exists/clear implementation
+#   See: "Documentation/AI Use Disclosure.md" for full details
+
+
 """
 utils/checkpoint.py — Save and load intermediate pipeline stage results.
 
@@ -25,10 +34,12 @@ class Checkpoint:
     """
 
     def __init__(self, directory: Path):
+        """Helper for init."""
         self.directory = Path(directory)
         self.directory.mkdir(parents=True, exist_ok=True)
 
     def _path(self, name: str) -> Path:
+        """Helper for path."""
         return self.directory / f"checkpoint_{name}.pkl"
 
     def exists(self, name: str) -> bool:

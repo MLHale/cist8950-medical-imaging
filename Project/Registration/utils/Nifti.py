@@ -1,10 +1,11 @@
-"""
-utils/nifti.py — Shared NIfTI file helpers used across multiple stages.
+# Tristan Jones 
+# Srping 2026 Capstone 
 
-Any stage that loads or saves a NIfTI file should use these functions
-rather than calling nibabel directly. That way if nibabel's API changes,
-or we need to add orientation fixing, there is only one place to update.
-"""
+# This file is a collection of helper functions that assist most other files
+# with loading or saving these nifti type files. Additionally this file helps 
+# with calculating the mm to voxel transformation from the nifti afffine 
+# which is created by the imagine machine itself. 
+
 
 import logging
 from pathlib import Path

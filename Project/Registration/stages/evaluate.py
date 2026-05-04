@@ -1,3 +1,8 @@
+# AI Use Disclosure — LEGACY FILE (not used in current pipeline)
+#   Student estimate: 65% student-designed, 35% AI-assisted implementation
+#   Claude assisted with: pre-alignment transform application, TPS + Dice evaluation integration
+#   See: "Documentation/AI Use Disclosure.md" for full details
+
 """
 stages/evaluate.py — Stage 5: Apply transformation + compute Dice coefficient.
 
@@ -80,6 +85,7 @@ def _dice(seg_a: np.ndarray, seg_b: np.ndarray, label: int = 1) -> float:
     out_shape = tuple(max(a, b) for a, b in zip(seg_a.shape, seg_b.shape))
 
     def pad_to(arr, shape):
+        """Execute pad to."""
         pad = [(0, shape[i] - arr.shape[i]) for i in range(arr.ndim)]
         return np.pad(arr, pad)
 

@@ -1,3 +1,8 @@
+# AI Use Disclosure
+#   Student estimate: 70% student-designed, 30% AI-assisted implementation
+#   Claude assisted with: ball_around helper, hepatic vein decomposition, extremal tip extraction
+#   See: "Documentation/AI Use Disclosure.md" for full details
+
 """
 stages/landmarks.py — Stage 2: Extract anatomical landmark clusters.
 
@@ -108,6 +113,7 @@ def extract_landmarks(patient_data: dict,
     all_clusters = []
 
     def add_landmark(center, name, pool=None):
+        """Execute add landmark."""
         pool = liver_voxels if pool is None else pool
         cluster = _ball_cluster(center, pool, cluster_radius, cluster_cap)
         all_clusters.append(cluster)

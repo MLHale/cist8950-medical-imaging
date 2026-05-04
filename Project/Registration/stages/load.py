@@ -1,3 +1,8 @@
+# AI Use Disclosure
+#   Student estimate: 40% student-designed, 60% AI-assisted implementation
+#   Claude assisted with: nibabel zip-reading (FileHolder + BytesIO), logging, portal vein fallback logic
+#   See: "Documentation/AI Use Disclosure.md" for full details
+
 """
 stages/load.py — Stage 1: Load all NIfTI segmentation files for one patient.
 

@@ -28,6 +28,7 @@ from Registration.utils.Checkpoint import Checkpoint
 
 
 def parse_args():
+    """Execute parse args."""
     p = argparse.ArgumentParser(description="Liver CT-to-CT registration pipeline")
     p.add_argument("--ref",          required=True,  help="Reference patient ID, e.g. 0004")
     p.add_argument("--src",          required=True,  help="Source patient ID, e.g. 0010")
@@ -72,6 +73,7 @@ def run_stage(name, fn, checkpoint, skip_if_done, *args, **kwargs):
 
 
 def main():
+    """Execute main."""
     args = parse_args()
 
     data_dir = Path(args.data_dir)

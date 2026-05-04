@@ -1,3 +1,8 @@
+# AI Use Disclosure
+#   Student estimate: 70% student-designed, 30% AI-assisted implementation
+#   Claude assisted with: mm-space centroid computation, _vox_to_mm and _mm_to_vox helpers
+#   See: "Documentation/AI Use Disclosure.md" for full details
+
 """
 stages/align.py — Stage 3: Rigid pre-alignment via Procrustes in mm space.
 

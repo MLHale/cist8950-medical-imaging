@@ -1,3 +1,8 @@
+# AI Use Disclosure — LEGACY FILE (not used in current pipeline)
+#   Student estimate: 45% student-designed, 55% AI-assisted implementation
+#   Claude assisted with: TPS kernel matrix formulation, linear system assembly, batch processing
+#   See: "Documentation/AI Use Disclosure.md" for full details
+
 """
 stages/tps.py — Stage 4: Fit a Thin Plate Spline transformation.
 
