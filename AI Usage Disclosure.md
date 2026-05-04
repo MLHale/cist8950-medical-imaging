@@ -48,7 +48,27 @@ I tried adding in my prompts, and exactly how I got the code that I did, the tes
 
 
 
+## Milesone 3
+Final Research paper:
+For this research paper, I used Grammarly to ensure my writing and grammar were clear. Additionally, I used Claude to create the references, help outline the paper, and to ensure that my writing was clear and getting the point across effectively/quickly.
+Essentially I would give Claude my wrtiting a paragraph or something then ask it how it sounded, Grammarly is just an extension though so its always present to tell me how to better refine my writing. I would then take their advice into consideration and if necessary rewrite it in my own words. 
+Also used claude to help me create the IEEE citations, would give it the PDF in most cases to get the correct citation. 
+Additionaly I did have VSCode just help me to make a wrapper essentially or whatever you call it where it takes the existing graphs I was already making and then just reformatted them so they were capable of being viewed by on the ACM paper. This was really just using stuff I already had but making a seperate little file for creating more figures esssentially that were specifically for the paper and maybe for the presentation? 
 
+Final Report.md:
+I didnt realize this was the one I didnt really need to do I was a bit confused I'm gonna be honest because everything is called final report or something. Anyways I used Claude at the end to fix my formating.
+
+milesone 3 Progress Report.md 
+Grammarly helped me with grammar and writing 
+
+Documentaion of Code
+I went through created a bt of a flow chart and I wanted to document exactly what goes where and what not for every file. I was trying to do this function by function and its honestly just a lot of work. Anyways having claude help me to format that as a markdown file and formating for the function coments as a docstring rather than just 20 comments lol. I gave Claude my information and then gave it the promt to format that for a markdown just so I can make sure to have much easier to follow documentatin for Dr. Ghersi. 
+
+Coding General 
+I think you may have said to not be too reliant on this in the milesone 2 feedback however that feedback was kind of given to me too late. I used Claude/VS Code for general debugging as needed, as well as just general help with writing functions I would say hey I want to make a function that does specifically x y and z and then gives me this as an output. Thats generally how I would use it I was doing the design and some of the coding and having it help me along the way. I would say its probably a 50/50ish relationship overall since I was trying to design things myself as best as possible. Additionally I did have claude entirely refactor my codebase, I watched a few tutorials on how to better set that up and then gave it the specific parameters that I wanted the new codebase to look like. Again I was trying to have it to help me resolve the implementations or designs that I wanted to get done. A lot of the overall functionality and stuff as far as visualizations was already kind of in place for the graphs I wanted to have, I just needed to really implemet the atlas alignment stuff and the distance to vasculature stuff. Obviously just trying to be as transparent as possible about it in general here. 
+
+Presentaiton:
+Probably gonna have claude help me make an outline for this but idk. 
 
 
 
