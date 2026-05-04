@@ -67,8 +67,11 @@ I went through created a bt of a flow chart and I wanted to document exactly wha
 Coding General 
 I think you may have said to not be too reliant on this in the milesone 2 feedback however that feedback was kind of given to me too late. I used Claude/VS Code for general debugging as needed, as well as just general help with writing functions I would say hey I want to make a function that does specifically x y and z and then gives me this as an output. Thats generally how I would use it I was doing the design and some of the coding and having it help me along the way. I would say its probably a 50/50ish relationship overall since I was trying to design things myself as best as possible. Additionally I did have claude entirely refactor my codebase, I watched a few tutorials on how to better set that up and then gave it the specific parameters that I wanted the new codebase to look like. Again I was trying to have it to help me resolve the implementations or designs that I wanted to get done. A lot of the overall functionality and stuff as far as visualizations was already kind of in place for the graphs I wanted to have, I just needed to really implemet the atlas alignment stuff and the distance to vasculature stuff. Obviously just trying to be as transparent as possible about it in general here. 
 
+Note here I made a whole other in depth version of this document in the project folder specifically for this and tried to say for each function what i did what the prompt was etc. etc. Essentially how muhc was my effort vs AI implementation stuff. I really tried to design everything as best as possible
+
+
 Presentaiton:
-Probably gonna have claude help me make an outline for this but idk. 
+Claude helped me make an outline 
 
 
 
