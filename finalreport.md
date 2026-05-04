@@ -33,15 +33,15 @@ Establish a foundational framework for future tumor localization in atlas space
 ## Project Methodology
 Dataset and Preprocessing 
 CT volumes were sourced from the publicly available TotalSegmentator dataset, this is comprised of 1228 clinically acquired scans. A manual integrity verification step was performed to exclude cases with truncation artifacts or incomplete liver volumes, retaining a total of 303 cases after this first step. From there, following automated segmentation and a second quality control pass to detect silent segmentation failures, the final analytic cohort consisted of 261 subjects (107 female and 154 male). All of the volumes were padded into a common array grid based on the maximum observed volume extents.
-Automated Segmentation 
+1. Automated Segmentation 
 Three separate Total Segmentator subtask calls were used to extract the liver parenchyma, the portal/splenic vasculature, the eight Couinaud liver segments, and the hepatic vessel masks, respectively 
-Rigid Alignment
+2. Rigid Alignment
 Alignment was performed in two separate passes using centroid-based translation and a canonical orientation matrix derived from each subject's NIfTI affine direction. Isotropic scaling was intentionally omitted to preserve natural size variation across the population. 
-Atlas Construction 
+3. Atlas Construction 
 Aligned liver masks were accumulated into a shared global grid and normalized by patient count to produce a probabilistic density volume. A consensus liver boundary was defined at the 0.5 density threshold. However, it should be addressed in future work. 
-Distance to vasculature Mapping
+4. Distance to vasculature Mapping
 Per-subject distance maps were computed in native space using a k-nearest neighbor approach (k=5) implemented with a k-D Tree, averaging the 5 nearest neighbors. Then warped into atlas space via trilinear interpolation and then averaged across the population. 
-Approaches Considered and Abandoned 
+5. Approaches Considered and Abandoned 
 Thin Plate Spline non-rigid registration was explored but abandoned due to the point correspondence problem; effectively, there was no reliable method to achieve 100% point correspondence between every voxel in the entire dataset and every voxel in the new target subjects' dataset. You could get some landmarks but this step needs a lot of further refinement and iteration to be useful. 
 
 I was confused about what this was I thought this was the milesone_3.md kind of thing you wanted so thats why I added all that my brain is clearly a little fried I'll keep the rest of this cause its fine but Im getting rid of theat resutls section cause Its really supposed to be in the milestone3.md
