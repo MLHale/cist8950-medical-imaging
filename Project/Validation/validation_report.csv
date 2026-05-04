@@ -1,1229 +1,304 @@
-patient_id,status,liver_voxels,portal_voxels,hepatic_voxels,n_segments,liver_spacing,issues
-0000,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0001,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0002,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0003,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0004,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0006,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0009,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0010,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0011,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0012,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0013,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0014,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0015,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0016,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0019,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0021,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0022,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0024,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0025,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0028,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0029,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0030,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0031,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0032,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0034,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0035,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0036,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0037,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0038,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0039,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0040,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0042,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0043,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0044,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0045,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0046,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0048,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0049,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0050,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0052,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0053,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0054,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0056,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0057,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0058,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0059,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0061,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0062,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0063,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0065,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0066,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0067,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0068,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0069,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0070,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0071,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0072,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0073,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0074,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0075,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0076,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0077,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0078,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0079,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0080,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0081,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0082,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0083,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0084,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0085,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0086,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0088,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0089,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0090,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0091,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0092,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0095,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0096,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0098,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0099,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0100,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0101,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0102,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0103,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0104,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0105,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0106,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0107,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0108,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0109,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0110,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0111,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0112,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0114,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0115,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0117,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0119,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0120,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0122,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0123,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0124,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0128,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0129,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0130,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0131,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0132,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0133,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0135,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0136,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0137,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0138,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0139,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0140,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0141,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0143,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0145,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0146,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0147,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0149,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0150,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0151,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0152,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0153,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0154,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0156,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0157,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0158,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0159,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0160,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0161,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0162,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0163,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0165,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0166,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0167,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0168,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0169,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0170,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0171,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0172,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0174,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0175,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0178,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0179,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0181,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0182,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0183,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0184,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0185,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0187,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0188,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0189,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0190,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0191,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0192,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0193,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0194,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0196,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0197,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0199,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0201,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0204,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0206,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0208,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0209,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0210,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0211,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0212,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0213,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0215,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0216,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0217,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0218,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0219,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0220,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0221,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0222,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0223,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0224,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0226,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0227,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0228,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0229,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0230,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0231,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0232,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0233,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0234,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0235,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0236,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0237,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0238,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0239,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0240,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0241,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0242,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0243,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0244,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0245,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0246,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0247,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0248,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0249,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0250,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0252,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0253,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0254,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0255,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0256,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0257,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0258,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0259,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0260,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0261,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0262,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0263,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0264,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0265,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0266,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0270,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0271,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0275,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0277,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0278,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0279,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0281,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0282,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0283,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0285,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0286,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0287,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0288,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0289,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0290,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0291,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0292,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0293,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0294,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0295,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0296,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0298,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0299,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0300,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0301,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0303,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0304,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0305,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0306,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0307,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0308,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0310,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0311,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0312,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0313,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0314,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0315,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0316,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0319,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0320,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0321,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0322,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0324,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0325,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0326,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0327,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0328,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0329,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0330,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0331,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0332,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0333,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0334,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0335,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0336,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0338,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0339,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0340,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0341,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0342,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0343,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0344,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0345,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0346,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0347,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0349,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0350,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0352,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0353,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0354,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0355,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0356,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0357,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0358,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0359,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0360,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0361,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0362,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0363,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0364,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0365,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0366,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0367,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0368,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0369,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0370,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0371,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0372,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0373,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0374,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0375,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0376,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0377,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0378,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0379,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0380,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0381,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0382,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0383,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0385,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0386,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0388,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0389,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0390,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0391,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0392,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0393,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0394,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0395,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0396,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0398,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0399,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0400,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0401,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0402,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0403,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0405,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0406,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0407,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0408,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0410,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0411,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0412,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0413,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0414,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0416,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0417,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0418,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0419,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0420,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0421,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0422,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0423,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0424,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0425,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0426,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0428,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0429,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0430,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0431,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0433,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0435,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0436,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0437,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0438,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0439,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0440,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0441,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0442,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0443,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0444,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0445,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0446,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0447,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0449,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0450,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0452,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0453,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0454,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0455,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0456,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0457,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0458,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0459,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0460,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0461,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0462,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0463,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0465,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0466,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0467,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0468,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0469,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0470,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0471,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0472,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0473,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0474,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0475,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0476,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0477,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0478,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0480,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0481,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0482,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0483,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0484,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0485,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0486,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0487,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0488,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0490,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0491,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0492,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0493,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0494,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0495,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0497,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0498,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0499,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0500,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0501,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0502,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0503,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0504,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0505,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0506,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0507,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0508,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0509,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0510,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0511,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0513,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0514,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0515,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0516,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0517,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0518,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0519,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0520,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0521,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0522,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0523,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0525,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0526,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0527,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0528,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0529,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0530,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0531,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0532,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0535,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0536,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0537,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0539,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0541,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0542,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0543,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0544,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0545,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0546,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0548,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0549,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0550,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0551,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0552,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0553,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0555,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0556,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0557,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0559,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0560,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0561,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0563,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0564,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0565,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0566,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0567,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0568,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0571,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0572,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0573,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0574,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0575,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0576,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0577,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0578,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0579,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0580,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0581,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0582,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0583,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0584,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0585,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0586,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0587,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0588,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0589,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0590,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0591,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0592,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0593,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0594,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0595,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0597,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0598,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0600,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0601,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0602,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0603,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0604,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0605,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0606,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0607,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0608,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0610,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0611,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0612,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0613,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0614,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0615,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0616,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0617,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0618,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0619,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0620,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0621,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0622,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0623,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0624,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0625,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0626,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0627,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0628,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0629,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0632,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0633,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0635,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0636,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0637,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0638,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0639,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0640,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0641,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0642,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0643,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0644,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0645,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0646,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0647,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0648,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0649,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0650,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0651,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0652,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0653,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0654,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0655,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0656,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0657,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0658,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0659,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0660,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0661,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0662,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0663,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0664,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0665,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0666,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0667,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0668,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0669,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0670,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0671,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0672,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0673,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0674,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0675,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0676,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0677,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0679,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0680,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0681,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0682,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0683,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0684,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0685,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0686,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0687,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0688,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0690,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0691,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0692,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0693,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0694,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0695,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0696,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0697,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0698,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0699,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0700,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0702,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0703,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0704,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0705,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0706,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0707,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0708,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0709,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0710,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0711,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0712,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0713,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0714,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0715,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0716,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0717,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0718,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0719,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0720,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0721,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0723,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0724,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0726,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0727,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0728,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0729,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0730,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0731,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0732,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0733,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0734,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0735,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0736,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0737,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0738,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0739,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0740,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0741,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0743,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0744,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0746,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0747,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0748,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0749,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0750,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0751,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0752,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0753,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0754,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0756,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0759,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0760,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0762,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0763,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0764,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0765,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0766,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0767,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0768,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0769,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0770,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0771,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0772,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0773,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0774,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0775,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0776,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0777,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0778,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0780,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0781,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0782,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0783,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0784,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0785,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0786,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0787,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0788,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0789,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0790,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0791,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0792,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0793,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0794,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0795,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0796,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0797,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0798,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0800,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0801,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0802,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0804,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0805,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0806,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0807,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0808,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0809,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0810,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0811,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0812,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0813,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0814,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0815,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0816,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0818,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0819,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0820,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0821,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0822,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0824,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0825,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0826,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0829,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0830,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0831,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0832,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0833,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0834,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0835,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0836,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0837,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0838,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0839,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0840,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0842,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0843,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0844,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0845,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0846,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0847,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0848,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0849,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0850,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0851,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0852,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0853,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0855,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0857,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0858,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0859,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0860,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0861,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0862,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0863,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0864,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0865,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0866,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0867,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0868,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0869,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0870,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0871,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0873,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0874,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0875,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0876,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0877,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0878,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0879,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0880,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0881,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0883,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0884,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0885,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0889,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0890,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0891,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0892,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0894,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0895,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0896,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0897,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0898,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0899,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0901,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0903,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0904,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0907,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0908,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0909,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0910,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0911,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0912,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0913,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0914,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0915,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0916,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0918,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0919,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0921,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0922,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0923,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0924,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0925,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0927,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0928,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0930,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0931,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0933,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0934,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0935,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0936,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0937,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0938,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0939,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0940,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0941,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0943,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0944,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0945,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0946,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0947,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0949,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0950,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0951,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0952,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0953,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0954,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0955,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0956,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0957,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0958,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0959,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0960,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0961,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0962,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0963,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0965,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0968,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0970,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0971,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0972,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0973,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0974,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0975,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0976,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0977,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0978,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0979,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0980,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0981,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0982,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0983,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0984,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0985,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0986,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0987,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0988,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0989,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0991,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0992,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0993,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0994,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0995,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0996,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0997,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-0999,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1000,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1001,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1002,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1003,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1004,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1005,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1006,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1007,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1008,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1009,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1010,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1011,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1012,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1013,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1014,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1015,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1016,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1017,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1018,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1020,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1021,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1022,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1023,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1024,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1025,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1026,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1028,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1029,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1031,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1032,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1033,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1034,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1035,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1036,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1037,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1038,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1039,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1040,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1041,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1042,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1043,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1044,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1045,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1046,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1047,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1048,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1049,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1050,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1051,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1052,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1053,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1055,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1056,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1057,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1058,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1059,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1060,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1061,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1062,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1063,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1065,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1066,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1067,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1068,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1069,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1070,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1071,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1072,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1073,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1075,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1077,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1079,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1082,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1083,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1084,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1085,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1086,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1088,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1089,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1090,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1093,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1094,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1096,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1097,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1098,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1099,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1100,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1101,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1102,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1103,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1104,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1105,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1106,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1107,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1109,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1110,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1111,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1112,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1113,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1114,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1115,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1119,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1120,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1121,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1122,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1123,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1124,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1125,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1127,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1128,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1129,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1130,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1131,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1132,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1133,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1134,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1135,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1136,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1137,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1138,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1140,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1141,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1142,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1143,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1144,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1145,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1146,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1147,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1148,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1149,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1150,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1151,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1152,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1153,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1154,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1155,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1156,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1157,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1158,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1159,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1161,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1162,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1163,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1164,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1165,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1167,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1168,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1169,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1170,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1171,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1172,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1173,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1174,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1175,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1176,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1177,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1178,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1179,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1182,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1183,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1184,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1185,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1187,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1189,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1190,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1191,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1192,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1194,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1195,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1196,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1197,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1199,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1201,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1203,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1205,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1206,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1207,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1208,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1209,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1210,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1212,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1215,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1216,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1218,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1220,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1221,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1222,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1223,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1224,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1225,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1226,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1227,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1228,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1230,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1231,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1233,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1234,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1235,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1236,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1237,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1238,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1239,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1240,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1241,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1242,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1243,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1244,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1245,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1246,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1247,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1248,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1249,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1250,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1251,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1252,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1254,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1255,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1256,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1257,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1258,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1259,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1260,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1261,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1262,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1264,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1267,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1268,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1269,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1270,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1271,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1272,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1273,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1274,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1275,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1276,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1277,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1278,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1279,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1280,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1281,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1283,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1285,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1286,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1287,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1288,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1289,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1290,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1291,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1292,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1293,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1294,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1295,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1296,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1297,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1298,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1299,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1300,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1301,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1303,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1304,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1305,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1307,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1308,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1309,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1310,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1311,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1312,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1314,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1315,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1316,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1317,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1318,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1319,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1321,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1322,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1323,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1325,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1326,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1327,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1328,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1329,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1330,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1331,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1332,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1333,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1334,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1335,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1336,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1337,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1338,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1339,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1340,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1341,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1342,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1343,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1344,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1345,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1346,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1347,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1348,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1349,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1350,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1352,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1353,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1354,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1355,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1357,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1358,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1359,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1361,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1362,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1363,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1364,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1365,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1366,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1367,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1368,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1369,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1370,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1371,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1372,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1373,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1374,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1375,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1377,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1378,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1379,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1380,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1382,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1383,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1384,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1385,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1386,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1387,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1388,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1389,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1390,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1391,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1394,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1395,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1397,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1399,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1400,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1401,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1403,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1404,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1405,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1406,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1407,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1408,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1409,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1410,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1411,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1412,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1413,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1414,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1415,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1416,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1417,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1418,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1419,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1420,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1421,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1422,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1423,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1424,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1425,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1426,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1427,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1428,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
-1429,FAIL,0,0,0,0,,Missing required file: liver.nii.gz | Missing required file: portal_vein.nii.gz | Missing required file: liver_vessels.nii.gz
+﻿patient_id,status,liver_voxels,portal_voxels,hepatic_voxels,n_segments,liver_spacing,issues
+0004,PASS,430042,11942,4976,8,1.50 x 1.50 x 1.50 mm,
+0010,PASS,477702,6844,9778,8,1.50 x 1.50 x 1.50 mm,
+0011,PASS,578251,7941,5928,8,1.50 x 1.50 x 1.50 mm,
+0012,PASS,625936,7259,6806,8,1.50 x 1.50 x 1.50 mm,
+0013,PASS,325345,7447,6226,8,1.50 x 1.50 x 1.50 mm,
+0015,PASS,746151,12699,14225,8,1.50 x 1.50 x 1.50 mm,
+0019,PASS,479934,4919,2417,8,1.50 x 1.50 x 1.50 mm,
+0024,FAIL,646557,8059,452,8,1.50 x 1.50 x 1.50 mm,liver_vessels: only 452 nonzero voxels (minimum 500) — likely failed segmentation
+0030,PASS,610956,12498,8562,8,1.50 x 1.50 x 1.50 mm,
+0038,PASS,428442,8765,12755,8,1.50 x 1.50 x 1.50 mm,
+0039,PASS,417710,5316,7694,8,1.50 x 1.50 x 1.50 mm,
+0040,PASS,395676,6764,9752,8,1.50 x 1.50 x 1.50 mm,
+0042,PASS,660002,10599,11584,8,1.50 x 1.50 x 1.50 mm,
+0045,PASS,441076,5646,1972,8,1.50 x 1.50 x 1.50 mm,
+0048,FAIL,443457,4692,0,8,1.50 x 1.50 x 1.50 mm,liver_vessels: mask is completely empty (0 nonzero voxels)
+0049,PASS,529126,8321,2841,8,1.50 x 1.50 x 1.50 mm,
+0052,PASS,427287,7849,4689,8,1.50 x 1.50 x 1.50 mm,
+0053,PASS,674174,11391,7852,8,1.50 x 1.50 x 1.50 mm,
+0054,PASS,360862,4652,3617,8,1.50 x 1.50 x 1.50 mm,
+0058,PASS,670015,7001,6016,8,1.50 x 1.50 x 1.50 mm,
+0059,PASS,448436,6849,17569,8,1.50 x 1.50 x 1.50 mm,
+0065,PASS,517117,7734,6620,8,1.50 x 1.50 x 1.50 mm,
+0070,PASS,442244,3998,9540,8,1.50 x 1.50 x 1.50 mm,
+0071,PASS,427231,5675,6479,8,1.50 x 1.50 x 1.50 mm,
+0072,PASS,422136,9350,4926,8,1.50 x 1.50 x 1.50 mm,
+0075,PASS,481446,7194,5443,8,1.50 x 1.50 x 1.50 mm,
+0076,PASS,652254,9707,6616,8,1.50 x 1.50 x 1.50 mm,
+0078,PASS,384369,5457,8221,8,1.50 x 1.50 x 1.50 mm,
+0082,PASS,423439,7185,9489,8,1.50 x 1.50 x 1.50 mm,
+0086,PASS,350988,6431,3687,8,1.50 x 1.50 x 1.50 mm,
+0089,PASS,360661,6189,3762,8,1.50 x 1.50 x 1.50 mm,
+0090,PASS,332308,7544,8437,8,1.50 x 1.50 x 1.50 mm,
+0095,FAIL,627284,5298,643,2,1.50 x 1.50 x 1.50 mm,[WARN] liver_segment_1.nii.gz: only 146 nonzero voxels | [WARN] liver_segment_2.nii.gz: only 0 nonzero voxels | [WARN] liver_segment_3.nii.gz: only 0 nonzero voxels | [WARN] liver_segment_4.nii.gz: only 0 nonzero voxels | [WARN] liver_segment_5.nii.gz: only 0 nonzero voxels | [WARN] liver_segment_6.nii.gz: only 0 nonzero voxels | Only 2/8 usable Couinaud segments (need ≥6 for registration)
+0106,PASS,490839,8651,5105,8,1.50 x 1.50 x 1.50 mm,
+0107,PASS,416523,10537,11992,8,1.50 x 1.50 x 1.50 mm,
+0108,PASS,496219,11871,8081,8,1.50 x 1.50 x 1.50 mm,
+0115,PASS*,767041,3442,1163,7,1.50 x 1.50 x 1.50 mm,[WARN] liver_segment_3.nii.gz: only 7 nonzero voxels
+0119,PASS,504929,9199,7805,8,1.50 x 1.50 x 1.50 mm,
+0120,PASS,348234,8912,5730,8,1.50 x 1.50 x 1.50 mm,
+0124,PASS,430466,6051,11505,8,1.50 x 1.50 x 1.50 mm,
+0137,PASS,379054,9630,9782,8,1.50 x 1.50 x 1.50 mm,
+0139,PASS,501966,6623,6187,8,1.50 x 1.50 x 1.50 mm,
+0141,PASS,489968,9522,8895,8,1.50 x 1.50 x 1.50 mm,
+0145,FAIL,599511,4807,22,8,1.50 x 1.50 x 1.50 mm,liver_vessels: only 22 nonzero voxels (minimum 500) — likely failed segmentation
+0147,PASS,580393,11098,13552,8,1.50 x 1.50 x 1.50 mm,
+0150,PASS,360425,7687,7833,8,1.50 x 1.50 x 1.50 mm,
+0153,PASS,754020,12238,14545,8,1.50 x 1.50 x 1.50 mm,
+0157,PASS,320238,8580,7179,8,1.50 x 1.50 x 1.50 mm,
+0158,PASS,535450,7978,1084,8,1.50 x 1.50 x 1.50 mm,
+0161,PASS,576252,11848,9890,8,1.50 x 1.50 x 1.50 mm,
+0163,PASS,514161,5813,4468,8,1.50 x 1.50 x 1.50 mm,
+0166,PASS,476065,5737,9857,8,1.50 x 1.50 x 1.50 mm,
+0168,PASS,440137,6248,11774,8,1.50 x 1.50 x 1.50 mm,
+0171,PASS,330099,7370,3412,8,1.50 x 1.50 x 1.50 mm,
+0174,PASS,319698,7302,7213,8,1.50 x 1.50 x 1.50 mm,
+0178,PASS,426637,7733,6749,8,1.50 x 1.50 x 1.50 mm,
+0182,PASS,409255,6008,1963,8,1.50 x 1.50 x 1.50 mm,
+0183,PASS,877114,12895,8358,8,1.50 x 1.50 x 1.50 mm,
+0189,PASS,496139,7846,3995,8,1.50 x 1.50 x 1.50 mm,
+0192,PASS,365443,6292,9961,8,1.50 x 1.50 x 1.50 mm,
+0193,PASS,429211,8825,9213,8,1.50 x 1.50 x 1.50 mm,
+0194,PASS,403312,8614,6395,8,1.50 x 1.50 x 1.50 mm,
+0196,PASS,303802,3809,687,8,1.50 x 1.50 x 1.50 mm,
+0204,PASS,669483,12404,12308,8,1.50 x 1.50 x 1.50 mm,
+0206,PASS,311051,3995,4715,8,1.50 x 1.50 x 1.50 mm,
+0210,PASS,841085,7977,7314,8,1.50 x 1.50 x 1.50 mm,
+0212,PASS,833500,13085,11168,8,1.50 x 1.50 x 1.50 mm,
+0213,PASS,621482,9566,5585,8,1.50 x 1.50 x 1.50 mm,
+0218,PASS,444612,5038,4084,8,1.50 x 1.50 x 1.50 mm,
+0224,PASS,641496,9323,6861,8,1.50 x 1.50 x 1.50 mm,
+0235,PASS,512291,10016,8290,8,1.50 x 1.50 x 1.50 mm,
+0236,PASS,424807,8867,5208,8,1.50 x 1.50 x 1.50 mm,
+0238,PASS,411441,6754,7232,8,1.50 x 1.50 x 1.50 mm,
+0239,PASS,480859,8780,5205,8,1.50 x 1.50 x 1.50 mm,
+0243,PASS,510095,5378,4142,8,1.50 x 1.50 x 1.50 mm,
+0248,PASS,389134,8014,5278,8,1.50 x 1.50 x 1.50 mm,
+0250,PASS,713966,11350,7489,8,1.50 x 1.50 x 1.50 mm,
+0255,PASS,551758,5841,3641,8,1.50 x 1.50 x 1.50 mm,
+0256,PASS,428458,6476,2403,8,1.50 x 1.50 x 1.50 mm,
+0257,PASS,322875,6197,1490,8,1.50 x 1.50 x 1.50 mm,
+0260,PASS,656209,7526,14156,8,1.50 x 1.50 x 1.50 mm,
+0264,PASS,392806,3297,1250,8,1.50 x 1.50 x 1.50 mm,
+0275,FAIL,624208,4975,5,8,1.50 x 1.50 x 1.50 mm,liver_vessels: only 5 nonzero voxels (minimum 500) — likely failed segmentation
+0286,PASS,519608,7188,4027,8,1.50 x 1.50 x 1.50 mm,
+0287,PASS,443421,7207,1502,8,1.50 x 1.50 x 1.50 mm,
+0291,PASS,569299,7626,5758,8,1.50 x 1.50 x 1.50 mm,
+0300,PASS,369113,7198,6294,8,1.50 x 1.50 x 1.50 mm,
+0307,PASS,370604,5887,5239,8,1.50 x 1.50 x 1.50 mm,
+0308,PASS,451549,8491,8294,8,1.50 x 1.50 x 1.50 mm,
+0311,PASS,552631,10252,8102,8,1.50 x 1.50 x 1.50 mm,
+0314,FAIL,334309,499,186,7,1.50 x 1.50 x 1.50 mm,portal_vein: only 499 nonzero voxels (minimum 500) — likely failed segmentation | liver_vessels: only 186 nonzero voxels (minimum 500) — likely failed segmentation | [WARN] liver_segment_1.nii.gz: only 82 nonzero voxels
+0315,PASS,971138,7027,619,8,1.50 x 1.50 x 1.50 mm,
+0319,PASS,743418,11558,15115,8,1.50 x 1.50 x 1.50 mm,
+0320,PASS,353979,4985,2634,8,1.50 x 1.50 x 1.50 mm,
+0321,PASS,589361,5699,2099,8,1.50 x 1.50 x 1.50 mm,
+0324,FAIL,329250,798,0,8,1.50 x 1.50 x 1.50 mm,liver_vessels: mask is completely empty (0 nonzero voxels)
+0325,PASS,372359,6776,3148,8,1.50 x 1.50 x 1.50 mm,
+0327,PASS,380243,4793,2800,8,1.50 x 1.50 x 1.50 mm,
+0328,PASS,600123,11412,13623,8,1.50 x 1.50 x 1.50 mm,
+0329,PASS,695778,10650,6849,8,1.50 x 1.50 x 1.50 mm,
+0332,FAIL,569588,2660,488,8,1.50 x 1.50 x 1.50 mm,liver_vessels: only 488 nonzero voxels (minimum 500) — likely failed segmentation
+0339,PASS,404420,8069,5259,8,1.50 x 1.50 x 1.50 mm,
+0344,PASS,469343,15591,12933,8,1.50 x 1.50 x 1.50 mm,
+0350,PASS,435517,6676,8484,8,1.50 x 1.50 x 1.50 mm,
+0369,PASS,396157,11472,3796,8,1.50 x 1.50 x 1.50 mm,
+0372,FAIL,514843,1496,304,8,1.50 x 1.50 x 1.50 mm,liver_vessels: only 304 nonzero voxels (minimum 500) — likely failed segmentation
+0375,PASS,736237,9678,6286,8,1.50 x 1.50 x 1.50 mm,
+0392,PASS,367937,3747,1898,8,1.50 x 1.50 x 1.50 mm,
+0394,FAIL,557067,1832,269,8,1.50 x 1.50 x 1.50 mm,liver_vessels: only 269 nonzero voxels (minimum 500) — likely failed segmentation
+0401,PASS,328776,4389,5232,8,1.50 x 1.50 x 1.50 mm,
+0402,PASS,432718,6191,8773,8,1.50 x 1.50 x 1.50 mm,
+0403,PASS,392936,5050,2055,8,1.50 x 1.50 x 1.50 mm,
+0408,PASS,420632,6470,5735,8,1.50 x 1.50 x 1.50 mm,
+0423,PASS,473837,9694,10487,8,1.50 x 1.50 x 1.50 mm,
+0429,PASS,430411,5009,6735,8,1.50 x 1.50 x 1.50 mm,
+0440,PASS,344370,5767,4345,8,1.50 x 1.50 x 1.50 mm,
+0445,FAIL,381339,4716,0,8,1.50 x 1.50 x 1.50 mm,liver_vessels: mask is completely empty (0 nonzero voxels)
+0447,PASS,354223,5717,9437,8,1.50 x 1.50 x 1.50 mm,
+0456,PASS,395261,10330,8475,8,1.50 x 1.50 x 1.50 mm,
+0458,PASS,483458,7914,6308,8,1.50 x 1.50 x 1.50 mm,
+0461,PASS,476393,8591,12616,8,1.50 x 1.50 x 1.50 mm,
+0467,PASS,629191,5136,3371,8,1.50 x 1.50 x 1.50 mm,
+0472,PASS,381018,6252,7457,8,1.50 x 1.50 x 1.50 mm,
+0473,PASS,325320,7252,8295,8,1.50 x 1.50 x 1.50 mm,
+0483,PASS,523290,4766,4275,8,1.50 x 1.50 x 1.50 mm,
+0484,PASS,427226,8295,4709,8,1.50 x 1.50 x 1.50 mm,
+0494,PASS,479359,7088,8971,8,1.50 x 1.50 x 1.50 mm,
+0495,PASS,607289,9171,10554,8,1.50 x 1.50 x 1.50 mm,
+0505,PASS,670932,12153,5950,8,1.50 x 1.50 x 1.50 mm,
+0507,PASS,465099,9361,6500,8,1.50 x 1.50 x 1.50 mm,
+0511,PASS,500634,5779,10255,8,1.50 x 1.50 x 1.50 mm,
+0523,FAIL,697560,3498,5,8,1.50 x 1.50 x 1.50 mm,liver_vessels: only 5 nonzero voxels (minimum 500) — likely failed segmentation
+0536,PASS,508393,8099,5829,8,1.50 x 1.50 x 1.50 mm,
+0542,PASS,438947,12538,8368,8,1.50 x 1.50 x 1.50 mm,
+0546,PASS,526913,10372,8509,8,1.50 x 1.50 x 1.50 mm,
+0549,PASS,686333,9871,11568,8,1.50 x 1.50 x 1.50 mm,
+0550,PASS,536090,10835,6977,8,1.50 x 1.50 x 1.50 mm,
+0551,PASS,364480,6330,3626,8,1.50 x 1.50 x 1.50 mm,
+0553,PASS,337204,5323,11547,8,1.50 x 1.50 x 1.50 mm,
+0556,PASS,494273,9065,5317,8,1.50 x 1.50 x 1.50 mm,
+0560,FAIL,443506,1201,28,8,1.50 x 1.50 x 1.50 mm,liver_vessels: only 28 nonzero voxels (minimum 500) — likely failed segmentation
+0561,PASS,348613,6763,7588,8,1.50 x 1.50 x 1.50 mm,
+0566,PASS,567301,10850,8137,8,1.50 x 1.50 x 1.50 mm,
+0571,PASS,375782,5902,6367,8,1.50 x 1.50 x 1.50 mm,
+0574,PASS,558314,9833,9299,8,1.50 x 1.50 x 1.50 mm,
+0577,PASS,713190,10336,7125,8,1.50 x 1.50 x 1.50 mm,
+0578,PASS,370056,7872,8048,8,1.50 x 1.50 x 1.50 mm,
+0585,PASS,448381,6345,3052,8,1.50 x 1.50 x 1.50 mm,
+0586,PASS,527540,9433,17153,8,1.50 x 1.50 x 1.50 mm,
+0591,PASS,381911,6509,3150,8,1.50 x 1.50 x 1.50 mm,
+0592,FAIL,385143,3908,467,8,1.50 x 1.50 x 1.50 mm,liver_vessels: only 467 nonzero voxels (minimum 500) — likely failed segmentation
+0600,PASS,564310,8756,12200,8,1.50 x 1.50 x 1.50 mm,
+0602,PASS,580659,7496,8819,8,1.50 x 1.50 x 1.50 mm,
+0603,FAIL,345933,3470,303,8,1.50 x 1.50 x 1.50 mm,liver_vessels: only 303 nonzero voxels (minimum 500) — likely failed segmentation
+0607,PASS,746850,11257,6496,8,1.50 x 1.50 x 1.50 mm,
+0612,PASS,625499,5415,9124,8,1.50 x 1.50 x 1.50 mm,
+0613,PASS,372102,9726,9502,8,1.50 x 1.50 x 1.50 mm,
+0616,PASS,559621,8748,4605,8,1.50 x 1.50 x 1.50 mm,
+0617,PASS,510689,11985,10298,8,1.50 x 1.50 x 1.50 mm,
+0619,PASS,294814,6903,8273,8,1.50 x 1.50 x 1.50 mm,
+0620,FAIL,588928,5531,0,8,1.50 x 1.50 x 1.50 mm,liver_vessels: mask is completely empty (0 nonzero voxels)
+0624,PASS,567620,9086,3523,8,1.50 x 1.50 x 1.50 mm,
+0626,PASS,547560,12229,16816,8,1.50 x 1.50 x 1.50 mm,
+0629,PASS,440578,4803,1604,8,1.50 x 1.50 x 1.50 mm,
+0635,PASS,355242,5502,5195,8,1.50 x 1.50 x 1.50 mm,
+0639,PASS,439614,8097,2530,8,1.50 x 1.50 x 1.50 mm,
+0644,PASS,447480,12812,12351,8,1.50 x 1.50 x 1.50 mm,
+0648,PASS,555182,8368,9402,8,1.50 x 1.50 x 1.50 mm,
+0651,PASS,552496,4896,1372,8,1.50 x 1.50 x 1.50 mm,
+0656,PASS,789960,11257,11773,8,1.50 x 1.50 x 1.50 mm,
+0657,PASS,624475,14556,21050,8,1.50 x 1.50 x 1.50 mm,
+0662,PASS,542882,10974,10534,8,1.50 x 1.50 x 1.50 mm,
+0663,PASS,480961,7667,8614,8,1.50 x 1.50 x 1.50 mm,
+0664,PASS,507080,8343,8753,8,1.50 x 1.50 x 1.50 mm,
+0665,PASS,355412,5424,4103,8,1.50 x 1.50 x 1.50 mm,
+0667,PASS,495207,7251,7226,8,1.50 x 1.50 x 1.50 mm,
+0670,PASS,264570,3265,5671,8,1.50 x 1.50 x 1.50 mm,
+0680,PASS,454957,9108,8658,8,1.50 x 1.50 x 1.50 mm,
+0682,PASS,515257,10307,10116,8,1.50 x 1.50 x 1.50 mm,
+0686,PASS,450858,8846,7075,8,1.50 x 1.50 x 1.50 mm,
+0687,PASS,444131,8537,8910,8,1.50 x 1.50 x 1.50 mm,
+0694,PASS,528916,5883,2257,8,1.50 x 1.50 x 1.50 mm,
+0699,PASS,362631,5537,6664,8,1.50 x 1.50 x 1.50 mm,
+0703,PASS,411389,10788,7908,8,1.50 x 1.50 x 1.50 mm,
+0708,PASS,294183,6081,7957,8,1.50 x 1.50 x 1.50 mm,
+0709,PASS,496138,7557,2755,8,1.50 x 1.50 x 1.50 mm,
+0711,PASS,360337,8731,7628,8,1.50 x 1.50 x 1.50 mm,
+0720,PASS,904891,8178,9945,8,1.50 x 1.50 x 1.50 mm,
+0721,PASS,505929,7641,11208,8,1.50 x 1.50 x 1.50 mm,
+0728,FAIL,380536,4009,273,8,1.50 x 1.50 x 1.50 mm,liver_vessels: only 273 nonzero voxels (minimum 500) — likely failed segmentation
+0731,PASS,710825,9732,13252,8,1.50 x 1.50 x 1.50 mm,
+0732,PASS,533812,9750,9279,8,1.50 x 1.50 x 1.50 mm,
+0733,PASS,422128,14399,12891,8,1.50 x 1.50 x 1.50 mm,
+0737,PASS,273671,5532,7070,8,1.50 x 1.50 x 1.50 mm,
+0739,PASS,494222,8376,5973,8,1.50 x 1.50 x 1.50 mm,
+0749,PASS,497448,8895,7149,8,1.50 x 1.50 x 1.50 mm,
+0760,PASS,413180,7842,11436,8,1.50 x 1.50 x 1.50 mm,
+0762,PASS,528577,9555,12801,8,1.50 x 1.50 x 1.50 mm,
+0763,PASS,614734,7347,5670,8,1.50 x 1.50 x 1.50 mm,
+0765,PASS,309530,8730,6808,8,1.50 x 1.50 x 1.50 mm,
+0790,PASS,344778,8105,6283,8,1.50 x 1.50 x 1.50 mm,
+0804,PASS,558084,5840,4140,8,1.50 x 1.50 x 1.50 mm,
+0807,PASS,541275,10121,13875,8,1.50 x 1.50 x 1.50 mm,
+0812,PASS,645059,7193,8093,8,1.50 x 1.50 x 1.50 mm,
+0830,PASS,408487,12827,6347,8,1.50 x 1.50 x 1.50 mm,
+0835,PASS,377881,7903,7364,8,1.50 x 1.50 x 1.50 mm,
+0860,PASS,560767,9455,14157,8,1.50 x 1.50 x 1.50 mm,
+0864,PASS,413116,6624,10956,8,1.50 x 1.50 x 1.50 mm,
+0878,PASS,467800,6686,5463,8,1.50 x 1.50 x 1.50 mm,
+0884,PASS,775023,11304,10025,8,1.50 x 1.50 x 1.50 mm,
+0894,PASS,647512,9595,9980,8,1.50 x 1.50 x 1.50 mm,
+0913,PASS,454071,9785,9032,8,1.50 x 1.50 x 1.50 mm,
+0916,PASS,444367,7145,11095,8,1.50 x 1.50 x 1.50 mm,
+0919,PASS,451242,4288,2005,8,1.50 x 1.50 x 1.50 mm,
+0924,PASS,649681,8980,9306,8,1.50 x 1.50 x 1.50 mm,
+0927,PASS,361470,7634,6772,8,1.50 x 1.50 x 1.50 mm,
+0931,FAIL,592092,7312,356,8,1.50 x 1.50 x 1.50 mm,liver_vessels: only 356 nonzero voxels (minimum 500) — likely failed segmentation
+0934,FAIL,490031,6517,0,8,1.50 x 1.50 x 1.50 mm,liver_vessels: mask is completely empty (0 nonzero voxels)
+0959,PASS,519817,7207,11889,8,1.50 x 1.50 x 1.50 mm,
+0961,PASS,392936,5631,4380,8,1.50 x 1.50 x 1.50 mm,
+0963,FAIL,330529,2756,4,8,1.50 x 1.50 x 1.50 mm,liver_vessels: only 4 nonzero voxels (minimum 500) — likely failed segmentation
+0983,PASS,607518,9280,16735,8,1.50 x 1.50 x 1.50 mm,
+0986,PASS,305780,6903,3914,8,1.50 x 1.50 x 1.50 mm,
+0992,PASS,382959,6146,5248,8,1.50 x 1.50 x 1.50 mm,
+0994,PASS,459234,10798,10523,8,1.50 x 1.50 x 1.50 mm,
+1006,PASS,386438,9868,5107,8,1.50 x 1.50 x 1.50 mm,
+1008,PASS,388991,5812,10241,8,1.50 x 1.50 x 1.50 mm,
+1012,PASS,508232,8815,5597,8,1.50 x 1.50 x 1.50 mm,
+1016,PASS,353669,8942,11991,8,1.50 x 1.50 x 1.50 mm,
+1028,PASS,672671,12192,14546,8,1.50 x 1.50 x 1.50 mm,
+1029,PASS,517930,9580,9697,8,1.50 x 1.50 x 1.50 mm,
+1037,PASS,470376,5589,1931,8,1.50 x 1.50 x 1.50 mm,
+1044,FAIL,559841,5774,1,8,1.50 x 1.50 x 1.50 mm,liver_vessels: only 1 nonzero voxels (minimum 500) — likely failed segmentation
+1045,PASS,566943,10381,8090,8,1.50 x 1.50 x 1.50 mm,
+1046,PASS,412693,8027,9161,8,1.50 x 1.50 x 1.50 mm,
+1061,PASS,669723,8589,9508,8,1.50 x 1.50 x 1.50 mm,
+1082,PASS,440816,7110,6547,8,1.50 x 1.50 x 1.50 mm,
+1089,PASS,419670,8849,4104,8,1.50 x 1.50 x 1.50 mm,
+1090,PASS,448625,11137,18690,8,1.50 x 1.50 x 1.50 mm,
+1099,PASS,399981,4269,7272,8,1.50 x 1.50 x 1.50 mm,
+1100,FAIL,469980,4918,1,8,1.50 x 1.50 x 1.50 mm,liver_vessels: only 1 nonzero voxels (minimum 500) — likely failed segmentation
+1102,FAIL,467408,1610,1,8,1.50 x 1.50 x 1.50 mm,liver_vessels: only 1 nonzero voxels (minimum 500) — likely failed segmentation
+1119,PASS,433598,9556,3428,8,1.50 x 1.50 x 1.50 mm,
+1123,PASS,518650,8575,6987,8,1.50 x 1.50 x 1.50 mm,
+1130,PASS,362216,6815,8247,8,1.50 x 1.50 x 1.50 mm,
+1131,PASS,741250,9105,12182,8,1.50 x 1.50 x 1.50 mm,
+1152,PASS,533617,6961,6114,8,1.50 x 1.50 x 1.50 mm,
+1153,PASS,353726,2195,6378,8,1.50 x 1.50 x 1.50 mm,
+1161,PASS,646712,10800,8559,8,1.50 x 1.50 x 1.50 mm,
+1174,PASS,466799,10776,7561,8,1.50 x 1.50 x 1.50 mm,
+1187,FAIL,428955,5632,0,8,1.50 x 1.50 x 1.50 mm,liver_vessels: mask is completely empty (0 nonzero voxels)
+1189,PASS,322804,4197,2375,8,1.50 x 1.50 x 1.50 mm,
+1208,FAIL,391768,2572,460,8,1.50 x 1.50 x 1.50 mm,liver_vessels: only 460 nonzero voxels (minimum 500) — likely failed segmentation
+1212,PASS,447228,6407,1617,8,1.50 x 1.50 x 1.50 mm,
+1224,PASS,516145,9220,8188,8,1.50 x 1.50 x 1.50 mm,
+1228,PASS,521385,11306,8957,8,1.50 x 1.50 x 1.50 mm,
+1230,PASS,496347,9043,1679,8,1.50 x 1.50 x 1.50 mm,
+1235,PASS,389322,6161,7785,8,1.50 x 1.50 x 1.50 mm,
+1240,PASS,456387,11252,11796,8,1.50 x 1.50 x 1.50 mm,
+1241,FAIL,353355,5590,0,8,1.50 x 1.50 x 1.50 mm,liver_vessels: mask is completely empty (0 nonzero voxels)
+1247,PASS,479086,7559,9852,8,1.50 x 1.50 x 1.50 mm,
+1262,PASS,412686,6713,2091,8,1.50 x 1.50 x 1.50 mm,
+1273,PASS,815028,11264,7384,8,1.50 x 1.50 x 1.50 mm,
+1283,FAIL,511807,4646,32,8,1.50 x 1.50 x 1.50 mm,liver_vessels: only 32 nonzero voxels (minimum 500) — likely failed segmentation
+1288,PASS,438832,10588,2362,8,1.50 x 1.50 x 1.50 mm,
+1291,PASS,345180,5209,3611,8,1.50 x 1.50 x 1.50 mm,
+1292,PASS,410437,6987,4866,8,1.50 x 1.50 x 1.50 mm,
+1294,PASS,344345,7196,6792,8,1.50 x 1.50 x 1.50 mm,
+1297,PASS,358326,6528,5501,8,1.50 x 1.50 x 1.50 mm,
+1304,PASS,743632,11168,4923,8,1.50 x 1.50 x 1.50 mm,
+1310,PASS,307212,2560,1229,8,1.50 x 1.50 x 1.50 mm,
+1319,FAIL,350406,2302,0,8,1.50 x 1.50 x 1.50 mm,liver_vessels: mask is completely empty (0 nonzero voxels)
+1321,PASS,389388,5694,3214,8,1.50 x 1.50 x 1.50 mm,
+1322,PASS,404153,7547,6176,8,1.50 x 1.50 x 1.50 mm,
+1339,PASS,376005,7246,6311,8,1.50 x 1.50 x 1.50 mm,
+1340,PASS,432599,7495,7702,8,1.50 x 1.50 x 1.50 mm,
+1344,FAIL,404033,1840,156,8,1.50 x 1.50 x 1.50 mm,liver_vessels: only 156 nonzero voxels (minimum 500) — likely failed segmentation
+1350,PASS,412398,10106,4495,8,1.50 x 1.50 x 1.50 mm,
+1363,FAIL,567025,9016,119,8,1.50 x 1.50 x 1.50 mm,liver_vessels: only 119 nonzero voxels (minimum 500) — likely failed segmentation
+1364,PASS,454349,7687,5103,8,1.50 x 1.50 x 1.50 mm,
+1366,PASS,391685,5927,5959,8,1.50 x 1.50 x 1.50 mm,
+1367,PASS,802732,8647,5775,8,1.50 x 1.50 x 1.50 mm,
+1368,PASS,566942,6814,12858,8,1.50 x 1.50 x 1.50 mm,
+1369,FAIL,511297,4734,9,8,1.50 x 1.50 x 1.50 mm,liver_vessels: only 9 nonzero voxels (minimum 500) — likely failed segmentation
+1371,PASS,517742,9064,6040,8,1.50 x 1.50 x 1.50 mm,
+1377,PASS,413723,9469,3041,8,1.50 x 1.50 x 1.50 mm,
+1382,PASS,433297,8777,4051,8,1.50 x 1.50 x 1.50 mm,
+1383,PASS,608743,10428,1890,8,1.50 x 1.50 x 1.50 mm,
+1386,PASS,377199,6957,3848,8,1.50 x 1.50 x 1.50 mm,
+1387,PASS,547183,8087,1791,8,1.50 x 1.50 x 1.50 mm,
+1388,FAIL,317356,4726,4,8,1.50 x 1.50 x 1.50 mm,liver_vessels: only 4 nonzero voxels (minimum 500) — likely failed segmentation
+1391,FAIL,476390,5495,28,8,1.50 x 1.50 x 1.50 mm,liver_vessels: only 28 nonzero voxels (minimum 500) — likely failed segmentation
+1394,PASS,653595,6332,2934,8,1.50 x 1.50 x 1.50 mm,
+1400,PASS,347691,3530,712,8,1.50 x 1.50 x 1.50 mm,
+1403,FAIL,606998,2451,76,8,1.50 x 1.50 x 1.50 mm,liver_vessels: only 76 nonzero voxels (minimum 500) — likely failed segmentation
+1411,FAIL,449891,7493,59,8,1.50 x 1.50 x 1.50 mm,liver_vessels: only 59 nonzero voxels (minimum 500) — likely failed segmentation
+1413,FAIL,824415,1910,190,8,1.50 x 1.50 x 1.50 mm,liver_vessels: only 190 nonzero voxels (minimum 500) — likely failed segmentation
+1415,PASS,340849,7292,11910,8,1.50 x 1.50 x 1.50 mm,
+1418,FAIL,415251,3667,14,8,1.50 x 1.50 x 1.50 mm,liver_vessels: only 14 nonzero voxels (minimum 500) — likely failed segmentation
+1421,FAIL,681216,6878,150,8,1.50 x 1.50 x 1.50 mm,liver_vessels: only 150 nonzero voxels (minimum 500) — likely failed segmentation
+1425,PASS,584442,14177,15681,8,1.50 x 1.50 x 1.50 mm,
+1426,FAIL,473603,8413,0,8,1.50 x 1.50 x 1.50 mm,liver_vessels: mask is completely empty (0 nonzero voxels)
+1427,FAIL,279651,1619,0,8,1.50 x 1.50 x 1.50 mm,liver_vessels: mask is completely empty (0 nonzero voxels)

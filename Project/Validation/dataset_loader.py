@@ -1,6 +1,11 @@
 # Validation/dataset_loader.py
 # Tristan Jones — Spring 2026 Capstone
 #
+# AI Use Disclosure
+#   Student estimate: 60% student-designed, 40% AI-assisted implementation
+#   Claude assisted with: full function implementation
+#   See: "Documentation/AI Use Disclosure.md" for full details
+#
 # Reads the manually-reviewed patient CSV files from Data/Dataset_Reviewed/
 # and returns filtered lists of patient IDs ready to pass into the Atlas.
 #
@@ -79,7 +84,8 @@ def load_patient_ids(
             return row.get(actual, "").strip() if actual else ""
 
         for row in reader:
-            pid = _get(row, _COL_ID).zfill(4)   # zero-pad to 4 digits
+            raw_pid = _get(row, _COL_ID)
+            pid = raw_pid.lstrip("sS").zfill(4)   # normalize s0004/0004 -> 0004
 
             if pid in exclude:
                 continue
@@ -117,6 +123,8 @@ def load_cohort(
     gender: Optional[str] = None,
     min_voxels: Optional[int] = None,
     exclude_ids: Optional[list[str]] = None,
+    use_validated_ids: bool = True,
+    validated_ids_path: Optional[Path] = None,
 ) -> list[str]:
     """
     Convenience wrapper — loads from Data/Dataset_Reviewed/<cohort>.csv.
@@ -128,6 +136,8 @@ def load_cohort(
         gender      : Optional additional gender filter on top of cohort file.
         min_voxels  : Optional minimum voxel count filter.
         exclude_ids : Patient IDs to skip.
+        use_validated_ids : If True, intersect with usable_patient_ids.txt.
+        validated_ids_path: Optional override path for usable IDs text file.
 
     Returns:
         Sorted list of patient ID strings.
@@ -143,12 +153,34 @@ def load_cohort(
     filename = _DEFAULT_FILES.get(cohort.lower(), f"{cohort}.csv")
     csv_path = reviewed_dir / filename
 
-    return load_patient_ids(
+    ids = load_patient_ids(
         csv_path    = csv_path,
         gender      = gender,
         min_voxels  = min_voxels,
         exclude_ids = exclude_ids,
     )
+
+    if not use_validated_ids:
+        return ids
+
+    ids_file = (Path(validated_ids_path) if validated_ids_path is not None
+                else Path(__file__).resolve().parent / "usable_patient_ids.txt")
+
+    if not ids_file.exists():
+        log.warning(f"  Usable IDs file not found: {ids_file} — using reviewed cohort only")
+        return ids
+
+    validated_ids = set()
+    with open(ids_file, "r", encoding="utf-8") as f:
+        for line in f:
+            pid = line.strip().lstrip("sS")
+            if pid:
+                validated_ids.add(pid.zfill(4))
+
+    filtered = [pid for pid in ids if pid in validated_ids]
+    log.info(f"  Applied validated ID filter from {ids_file.name}: "
+             f"{len(ids)} -> {len(filtered)}")
+    return filtered
 
 
 def print_cohort_summary(data_dir: Path) -> None:

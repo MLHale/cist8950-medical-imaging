@@ -2,7 +2,12 @@
 # give me the segmentations as a wrapper for total segmentator I was really initally just messing around with it wasnt intending on this
 # to become a main staple of whats happening here. Prompt: can you help me to create a way to just grab these certains
 # segmentations [list of ones in question] output them to files from data that I have currently? Something along these lines
-# I made some alterations but definetly a lot made by Claude. 
+# I made some alterations but definetly a lot made by Claude.
+#
+# AI Use Disclosure
+#   Student estimate: 50% student-designed, 50% AI-assisted implementation
+#   Claude assisted with: subprocess wrapper, zip I/O, temp dir management, error handling
+#   See: "Documentation/AI Use Disclosure.md" for full details 
 #
 # Updated to process one patient at a time — extract CT from zip, run TS, write
 # segmentations into segmentations.zip, delete the CT. Never keeps more than one
@@ -285,6 +290,13 @@ def process_one_patient(
 # This reads the reviewed CSV, checks what's already done, and processes
 # the rest one patient at a time.
 if __name__ == "__main__":
+    import argparse as _argparse
+    _ap = _argparse.ArgumentParser(description="Batch TotalSegmentator pipeline")
+    _ap.add_argument("--gpu", action="store_true",
+                     help="Run TotalSegmentator on GPU (passes --device gpu to TS)")
+    _ap.add_argument("--fast", action="store_true",
+                     help="Run TotalSegmentator in fast/low-res mode (CPU speedup)")
+    _cli = _ap.parse_args()
 
     _ROOT         = Path(__file__).resolve().parent.parent
     _DATA_DIR     = _ROOT / "Data"
@@ -306,6 +318,14 @@ if __name__ == "__main__":
 
     try:
         _CMD = find_totalsegmentator_command()
+        if _cli.gpu:
+            _CMD += ["--device", "gpu"]
+            print("  Mode        : GPU")
+        elif _cli.fast:
+            _CMD += ["--fast"]
+            print("  Mode        : CPU fast (low-res)")
+        else:
+            print("  Mode        : CPU (default)")
         print(f"  Command     : {' '.join(_CMD)}")
     except FileNotFoundError as e:
         print(str(e))

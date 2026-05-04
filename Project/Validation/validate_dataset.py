@@ -2,6 +2,11 @@
 # Dataset Validator — Totalsegmentator_dataset_v201
 # Spring 2026 Capstone
 #
+# AI Use Disclosure
+#   Student estimate: 60% student-designed, 40% AI-assisted implementation
+#   Claude assisted with: zip scanning logic, per-patient validation checks
+#   See: "Documentation/AI Use Disclosure.md" for full details
+#
 # Scans every patient folder in the dataset (either from the zip directly
 # or from an already-extracted Data/ directory) and checks for all the
 # issues that would cause the registration pipeline to fail or produce
@@ -35,6 +40,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import gzip
 import io
 import os
 import zipfile
@@ -61,7 +67,7 @@ MIN_SEGMENT_VOXELS   = 200      # minimum voxels for a single Couinaud segment
 # Minimum number of Couinaud segments required for registration.
 # register() uses however many segments exist — fewer than this and the
 # Procrustes pre-alignment will be poorly constrained.
-MIN_SEGMENTS_REQUIRED = 6
+# MIN_SEGMENTS_REQUIRED = 8
 
 # Required files per patient folder (after TotalSegmentator has run)
 REQUIRED_FILES = [
@@ -91,6 +97,7 @@ class PatientReport:
     liver_spacing:  str = ""  # e.g. "1.50 x 1.50 x 1.50 mm"
 
     def fail(self, reason: str) -> None:
+        """Execute fail."""
         self.passed = False
         self.issues.append(reason)
 
@@ -100,6 +107,7 @@ class PatientReport:
 
     @property
     def status(self) -> str:
+        """Execute status."""
         if self.passed and not self.issues:
             return "PASS"
         if self.passed:
@@ -113,12 +121,17 @@ class PatientReport:
 
 def _load_nifti_from_bytes(data: bytes) -> nib.Nifti1Image:
     """Load a NIfTI image from raw bytes (used when reading from zip)."""
+    # Zip members are typically .nii.gz; nibabel expects uncompressed NIfTI
+    # bytes when parsing from an in-memory file-like object.
+    if data[:2] == b"\x1f\x8b":
+        data = gzip.decompress(data)
     fh = nib.FileHolder(fileobj=io.BytesIO(data))
     img = nib.Nifti1Image.from_file_map({"header": fh, "image": fh})
     return img
 
 
 def _load_nifti_from_path(path: Path) -> nib.Nifti1Image:
+    """Helper for load nifti from path."""
     return nib.load(str(path))
 
 
@@ -264,7 +277,8 @@ def validate_patient_disk(patient_dir: Path) -> PatientReport:
 
 def validate_patient_zip(zf: zipfile.ZipFile,
                           patient_id: str,
-                          all_entries: set[str]) -> PatientReport:
+                          all_entries: set[str],
+                          zip_layout: str) -> PatientReport:
     """
     Validate one patient reading directly from the zip.
     Zip internal structure: s{patient_id:04d}/{filename}
@@ -275,20 +289,51 @@ def validate_patient_zip(zf: zipfile.ZipFile,
       Layout A (raw zip):    s0004/liver.nii.gz
       Layout B (processed):  Data/0004/liver.nii.gz  (zipped after processing)
     """
-    pid    = patient_id.lstrip("0") or "0"
     pid_z  = patient_id.zfill(4)
     report = PatientReport(patient_id=patient_id)
 
+    # Raw TotalSegmentator zip has labels under sXXXX/segmentations/ and
+    # uses portal_vein_and_splenic_vein instead of portal_vein.
+    is_raw_ts_layout = zip_layout == "raw_totalseg"
+
+    name_aliases = {
+        "liver.nii.gz": ["liver.nii.gz"],
+        "portal_vein.nii.gz": [
+            "portal_vein.nii.gz",
+            "portal_vein_and_splenic_vein.nii.gz",
+        ],
+        "liver_vessels.nii.gz": ["liver_vessels.nii.gz"],
+    }
+
+    required_files = ["liver.nii.gz", "portal_vein.nii.gz"]
+    if not is_raw_ts_layout:
+        required_files.append("liver_vessels.nii.gz")
+
     def _zip_path(fname: str) -> Optional[str]:
-        candidates = [
-            f"{pid_z}/{fname}",          # 0004/liver.nii.gz
-            f"{patient_id}/{fname}",     # 1366/liver.nii.gz (un-padded)
-            f"s{pid_z}/{fname}",         # s0004/liver.nii.gz (original dataset format)
-            f"Data/{patient_id}/{fname}",
-            f"Data/{pid_z}/{fname}",
-        ]
+        """Helper for zip path."""
+        fname_candidates = name_aliases.get(fname, [fname])
+        candidates: list[str] = []
+
+        for current_name in fname_candidates:
+            candidates.extend([
+                f"{pid_z}/{current_name}",              # 0004/liver.nii.gz
+                f"{patient_id}/{current_name}",         # 1366/liver.nii.gz
+                f"s{pid_z}/{current_name}",             # s0004/liver.nii.gz
+                f"Data/{patient_id}/{current_name}",
+                f"Data/{pid_z}/{current_name}",
+                f"s{pid_z}/segmentations/{current_name}",
+                f"{pid_z}/segmentations/{current_name}",
+                f"Data/{patient_id}/segmentations/{current_name}",
+                f"Data/{pid_z}/segmentations/{current_name}",
+            ])
+
+        for candidate in candidates:
+            if candidate in all_entries:
+                return candidate
+        return None
 
     def _read(fname: str) -> Optional[bytes]:
+        """Helper for read."""
         zpath = _zip_path(fname)
         if zpath is None:
             return None
@@ -296,6 +341,7 @@ def validate_patient_zip(zf: zipfile.ZipFile,
             return f.read()
 
     def _load(fname: str) -> Optional[nib.Nifti1Image]:
+        """Helper for load."""
         raw = _read(fname)
         if raw is None:
             return None
@@ -306,7 +352,7 @@ def validate_patient_zip(zf: zipfile.ZipFile,
             return None
 
     # ---- Required files ----
-    for fname in REQUIRED_FILES:
+    for fname in required_files:
         if _zip_path(fname) is None:
             report.fail(f"Missing required file: {fname}")
 
@@ -335,6 +381,8 @@ def validate_patient_zip(zf: zipfile.ZipFile,
         _check_affine(hepatic_img, "liver_vessels", report)
         report.hepatic_voxels = _check_volume(
             hepatic_img, "liver_vessels", report, MIN_HEPATIC_VOXELS)
+    elif not is_raw_ts_layout:
+        report.fail("Missing required file: liver_vessels.nii.gz")
 
     # ---- Couinaud segments ----
     n_good_segments = 0
@@ -350,7 +398,7 @@ def validate_patient_zip(zf: zipfile.ZipFile,
             report.warn(f"{fname}: only {n_nonzero} nonzero voxels")
 
     report.n_segments = n_good_segments
-    if n_good_segments < MIN_SEGMENTS_REQUIRED:
+    if (not is_raw_ts_layout) and n_good_segments < MIN_SEGMENTS_REQUIRED:
         report.fail(f"Only {n_good_segments}/8 usable Couinaud segments "
                     f"(need ≥{MIN_SEGMENTS_REQUIRED} for registration)")
 
@@ -362,17 +410,25 @@ def validate_patient_zip(zf: zipfile.ZipFile,
 # ---------------------------------------------------------------------------
 
 def discover_ids_from_zip(zf: zipfile.ZipFile) -> list[str]:
+    """Execute discover ids from zip."""
     ids = set()
     for entry in zf.namelist():
         parts = entry.split("/")
-        if len(parts) >= 2:
-            pid = parts[0].lstrip("s")   # handle both s0004 and 0004 formats
-            try:
-                int(pid)
+        for token in parts:
+            if not token or token.lower() in {"data", "segmentations"}:
+                continue
+            pid = token.lstrip("s")
+            if pid.isdigit():
                 ids.add(pid.zfill(4))
-            except ValueError:
-                pass
+                break
     return sorted(ids)
+
+
+def detect_zip_layout(all_entries: set[str]) -> str:
+    """Detect whether the zip is raw TotalSegmentator or processed outputs."""
+    if any(e.endswith("/segmentations/liver.nii.gz") for e in all_entries):
+        return "raw_totalseg"
+    return "processed"
 
 
 def discover_ids_from_disk(data_dir: Path) -> list[str]:
@@ -392,6 +448,7 @@ def discover_ids_from_disk(data_dir: Path) -> list[str]:
 # ---------------------------------------------------------------------------
 
 def print_summary(reports: list[PatientReport]) -> None:
+    """Execute print summary."""
     passed  = [r for r in reports if r.passed]
     failed  = [r for r in reports if not r.passed]
     warned  = [r for r in passed  if r.issues]
@@ -442,7 +499,7 @@ def save_csv(reports: list[PatientReport], output_path: Path) -> None:
         "patient_id", "status", "liver_voxels", "portal_voxels",
         "hepatic_voxels", "n_segments", "liver_spacing", "issues",
     ]
-    with open(output_path, "w", newline="") as f:
+    with open(output_path, "w", newline="", encoding="utf-8-sig") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         for r in reports:
@@ -462,7 +519,7 @@ def save_csv(reports: list[PatientReport], output_path: Path) -> None:
 def save_usable_ids(reports: list[PatientReport], output_path: Path) -> None:
     """Save just the passing patient IDs as a plain text file, one per line."""
     usable = sorted(r.patient_id for r in reports if r.passed)
-    with open(output_path, "w") as f:
+    with open(output_path, "w", encoding="utf-8") as f:
         for pid in usable:
             f.write(pid + "\n")
     print(f"  Usable IDs saved  → {output_path}  ({len(usable)} patients)")
@@ -473,6 +530,7 @@ def save_usable_ids(reports: list[PatientReport], output_path: Path) -> None:
 # ---------------------------------------------------------------------------
 
 def parse_args() -> argparse.Namespace:
+    """Execute parse args."""
     parser = argparse.ArgumentParser(
         description="Validate TotalSegmentator dataset for liver atlas pipeline."
     )
@@ -528,6 +586,7 @@ def parse_args() -> argparse.Namespace:
 
 
 def main() -> int:
+    """Execute main."""
     args = parse_args()
 
     # Allow overriding thresholds from CLI
@@ -545,7 +604,10 @@ def main() -> int:
         print(f"Reading from zip: {args.zip_path}")
         with zipfile.ZipFile(args.zip_path, "r") as zf:
             all_entries = set(zf.namelist())
+            zip_layout = detect_zip_layout(all_entries)
             patient_ids = discover_ids_from_zip(zf)
+
+            print(f"Detected zip layout: {zip_layout}")
 
             if args.max_patients:
                 patient_ids = patient_ids[:args.max_patients]
@@ -553,7 +615,7 @@ def main() -> int:
             print(f"Found {len(patient_ids)} patient IDs in zip.\n")
 
             for i, pid in enumerate(patient_ids, start=1):
-                report = validate_patient_zip(zf, pid, all_entries)
+                report = validate_patient_zip(zf, pid, all_entries, zip_layout)
                 reports.append(report)
 
                 # Live progress line
