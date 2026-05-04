@@ -96,6 +96,7 @@ python ./research_paper/scripts/alignment_statistics.py
 ```
 
 ### 6. (Optional) Pairwise TPS registration
+This is old/legacy and may not work lots of changes since it was completed previously 
 ```bash
 python -m Registration.Run --ref 0004 --src 0010 --skip-if-done
 ```
@@ -111,13 +112,11 @@ and comparison but is not called by the atlas pipeline.
 alignment for each patient. Both `liver_atlas.py` and `vascular_distance.py` read
 from the same cache so registration runs only once per patient total.
 
-**LOAD_EXISTING flag** — set to True in each Atlas script after the first run
-to reload saved outputs without re-running anything.
 
 ## Detailed Documentation Pass
 
 For file-by-file technical documentation, use:
 
-- docs/PIPELINE_FILE_BREAKDOWN.md
+- Documentation.md
 
 This is the working checklist and deep-dive notes document for each Python file in the pipeline.
