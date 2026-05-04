@@ -1,3 +1,1 @@
-im just adding this here to make sure the outputs folder exists because you cant like upload an empty folder. I will probably just make sure to add a check in the code to just make the folder if it doesnt exist it might honestly already be there but im really tired lol 
-
-So I dont really care to look into this right now so this is just here for vibes 
+This was made as a placeholder file to make this folder. I can provide outputs if needed, or try to upload these again to GitHub. The files are just straight up too large. 
