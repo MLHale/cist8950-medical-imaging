@@ -1,5 +1,5 @@
 ## AI tools that I may have used in one way or another:
-Gemini - For research and finding relevant or similar articles to a topic I'm researching 
+Gemini - For research and finding relevant or similar articles to a topic I'm researching although I ended up really just using google scholar and pubmed moslty because its still genuinely faster than using Gemini 90% of the time 
 
 ChatGPT - Brainstorming, Rewriting things sometimes 
 
