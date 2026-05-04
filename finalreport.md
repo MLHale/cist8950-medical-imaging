@@ -13,12 +13,12 @@ Vasculature infiltration is a clinically significant event that is suspected to 
 
 ## Project Goals
 The Project originated from a collaboration with Dr. Ghersi on a core clinical question: can we determine the distance between a tumor and the surrounding vasculature from a standard CT scan? The initial proposed deliverable was a reproducible registration pipeline covering:
-CT preprocessing and orientation normalization
-TotalSegmentator execution for automated segmentation
-Surface and landmark extraction
-Staged registration (rigid -> affine -> non-rigid)
-Transformation application to segmented structures
-Distance-to-vasculature computation
+1. CT preprocessing and orientation normalization
+2. TotalSegmentator execution for automated segmentation
+3. Surface and landmark extraction
+4. Staged registration (rigid -> affine -> non-rigid)
+5. Transformation application to segmented structures
+6. Distance-to-vasculature computation
 
 As the project progressed, TPS-based non-rigid registration was largely abandoned due to the fundamental point-correspondence problem Dr. Hale had pointed out. It was very difficult to ensure that a specific point in one liver corresponded 100% to a point in another liver. This was possible to some extent with landmarks, but covering the entire liver would be a difficult endeavor entirely. From there, the scope shifted into creating more of an electron cloud model, which allowed me to create the population-level probabilistic atlas model. As such, the final goals become:
 Build a sex-stratified probabilistic liver atlas from a large clinical CT cohort
